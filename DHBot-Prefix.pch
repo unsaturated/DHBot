@@ -29,8 +29,8 @@
 #import <MobileCoreServices/MobileCoreServices.h>
 #import <RestKit/RestKit.h>
 #import <EAIntroView/EAIntroView.h>
-#import <RNCryptor/RNEncryptor.h>
-#import <RNCryptor/RNDecryptor.h>
+#import <RNCryptor-objc/RNEncryptor.h>
+#import <RNCryptor-objc/RNDecryptor.h>
 #endif
 #else
 #ifdef __OBJC__
