@@ -1,0 +1,279 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "0Nr-Vc-daa"; */
+"0Nr-Vc-daa.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Disk"; ObjectID = "1tc-cn-xlG"; */
+"1tc-cn-xlG.text" = "Disk";
+
+/* Class = "IBUILabel"; text = "Command"; ObjectID = "31h-1g-0hD"; */
+"31h-1g-0hD.text" = "Command";
+
+/* Class = "IBUILabel"; text = "Coming Soon"; ObjectID = "4gd-2M-kQJ"; */
+"4gd-2M-kQJ.text" = "Coming Soon";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "6it-ks-eiF"; */
+"6it-ks-eiF.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Validation ensures your API key is usable on DreamHost. It also retrieves which commands are possible using DH Bot."; ObjectID = "7BT-Jd-N3R"; */
+"7BT-Jd-N3R.text" = "Validation ensures your API key is usable on DreamHost. It also retrieves which commands are possible using DH Bot.";
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "7zb-pK-sxP"; */
+"7zb-pK-sxP.text" = "Username";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "8YU-6U-WnQ"; */
+"8YU-6U-WnQ.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "9RP-UH-bmr"; */
+"9RP-UH-bmr.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Tag"; ObjectID = "BFe-TI-fgY"; */
+"BFe-TI-fgY.text" = "Tag";
+
+/* Class = "IBUILabel"; text = "DreamHost API Key"; ObjectID = "Bfd-ui-uDy"; */
+"Bfd-ui-uDy.text" = "DreamHost API Key";
+
+/* Class = "IBUILabel"; text = "Description"; ObjectID = "C1H-uL-Z0p"; */
+"C1H-uL-Z0p.text" = "Description";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "C9h-tK-eJb"; */
+"C9h-tK-eJb.text" = "Title";
+
+/* Class = "IBUINavigationItem"; title = "Root View Controller"; ObjectID = "CT8-6H-0Mn"; */
+"CT8-6H-0Mn.title" = "Root View Controller";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "CWY-JU-L6D"; */
+"CWY-JU-L6D.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Shell Type"; ObjectID = "ECz-Fh-4ha"; */
+"ECz-Fh-4ha.text" = "Shell Type";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Eb7-ny-myd"; */
+"Eb7-ny-myd.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Error"; ObjectID = "FgN-4I-3CN"; */
+"FgN-4I-3CN.text" = "Error";
+
+/* Class = "IBUITextField"; placeholder = "Name or description"; ObjectID = "IGm-za-DSk"; */
+"IGm-za-DSk.placeholder" = "Name or description";
+
+/* Class = "IBUINavigationItem"; title = "Add Key"; ObjectID = "JIC-Kg-5EX"; */
+"JIC-Kg-5EX.title" = "Add Key";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "L9m-16-VnC"; */
+"L9m-16-VnC.text" = "Subtitle";
+
+/* Class = "IBUIButton"; normalTitle = "Add User"; ObjectID = "LCp-eN-Pl0"; */
+"LCp-eN-Pl0.normalTitle" = "Add User";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "Mvi-zX-Hnd"; */
+"Mvi-zX-Hnd.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "MzF-l5-UwQ"; */
+"MzF-l5-UwQ.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "NSb-ph-SdD"; */
+"NSb-ph-SdD.text" = "Subtitle";
+
+/* Class = "IBUITextField"; placeholder = "Top-level domain name (.com, .net, ...)"; ObjectID = "NdK-Q7-XvH"; */
+"NdK-Q7-XvH.placeholder" = "Top-level domain name (.com, .net, ...)";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "OyJ-Th-J2V"; */
+"OyJ-Th-J2V.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "RUV-Jy-VeX"; */
+"RUV-Jy-VeX.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Error"; ObjectID = "RV3-xj-swp"; */
+"RV3-xj-swp.text" = "Error";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "Rjf-SY-arO"; */
+"Rjf-SY-arO.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "T3W-Ig-7W9"; */
+"T3W-Ig-7W9.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "Tgv-US-J7t"; */
+"Tgv-US-J7t.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "UV6-ud-ww6"; */
+"UV6-ud-ww6.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "Uu1-0K-SjN"; */
+"Uu1-0K-SjN.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "V0s-0F-Mfc"; */
+"V0s-0F-Mfc.text" = "Detail";
+
+/* Class = "IBUITextField"; placeholder = "Log-in user"; ObjectID = "VQC-Mm-TWs"; */
+"VQC-Mm-TWs.placeholder" = "Log-in user";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "WBU-s6-kUp"; */
+"WBU-s6-kUp.text" = "Title";
+
+/* Class = "IBUISegmentedControl"; WEL-BT-w69.segmentTitles[0] = "FTP"; ObjectID = "WEL-BT-w69"; */
+"WEL-BT-w69.segmentTitles[0]" = "FTP";
+
+/* Class = "IBUISegmentedControl"; WEL-BT-w69.segmentTitles[1] = "SFTP"; ObjectID = "WEL-BT-w69"; */
+"WEL-BT-w69.segmentTitles[1]" = "SFTP";
+
+/* Class = "IBUISegmentedControl"; WEL-BT-w69.segmentTitles[2] = "Shell"; ObjectID = "WEL-BT-w69"; */
+"WEL-BT-w69.segmentTitles[2]" = "Shell";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "WN3-nB-sbe"; */
+"WN3-nB-sbe.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Password"; ObjectID = "Y3G-Yf-KKp"; */
+"Y3G-Yf-KKp.text" = "Password";
+
+/* Class = "IBUITabBarItem"; badgeValue = "50"; ObjectID = "YcO-md-sg4"; */
+"YcO-md-sg4.badgeValue" = "";
+
+/* Class = "IBUITabBarItem"; title = "History"; ObjectID = "YcO-md-sg4"; */
+"YcO-md-sg4.title" = "History";
+
+/* Class = "IBUINavigationItem"; title = "Root View Controller"; ObjectID = "amm-Ob-BKu"; */
+"amm-Ob-BKu.title" = "Root View Controller";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "avy-FQ-Z0E"; */
+"avy-FQ-Z0E.text" = "Subtitle";
+
+/* Class = "IBUITabBarItem"; title = "API"; ObjectID = "bFa-gs-baZ"; */
+"bFa-gs-baZ.title" = "API";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "cPV-og-biD"; */
+"cPV-og-biD.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Full Name"; ObjectID = "cV5-CP-gHA"; */
+"cV5-CP-gHA.text" = "Full Name";
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "daZ-bl-he4"; */
+"daZ-bl-he4.text" = "Username";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "dla-Kk-TTM"; */
+"dla-Kk-TTM.text" = "Subtitle";
+
+/* Class = "IBUIButton"; normalTitle = "Validate"; ObjectID = "fTV-Bd-cvL"; */
+"fTV-Bd-cvL.normalTitle" = "Validate";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "fuA-iv-agH"; */
+"fuA-iv-agH.text" = "Title";
+
+/* Class = "IBUINavigationItem"; title = "API Keys"; ObjectID = "gua-qG-WIv"; */
+"gua-qG-WIv.title" = "API Keys";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "h6m-0q-33K"; */
+"h6m-0q-33K.text" = "Subtitle";
+
+/* Class = "IBUIBarButtonItem"; title = "Users"; ObjectID = "hKY-uT-Pbc"; */
+"hKY-uT-Pbc.title" = "Users";
+
+/* Class = "IBUILabel"; text = "Account ID"; ObjectID = "hVl-jQ-XSv"; */
+"hVl-jQ-XSv.text" = "Account ID";
+
+/* Class = "IBUILabel"; text = "Domain Name"; ObjectID = "iIl-wv-1ER"; */
+"iIl-wv-1ER.text" = "Domain Name";
+
+/* Class = "IBUITextField"; placeholder = "Brief description of the key"; ObjectID = "jIQ-5M-IRh"; */
+"jIQ-5M-IRh.placeholder" = "Brief description of the key";
+
+/* Class = "IBUILabel"; text = "Error"; ObjectID = "jL0-l5-3QR"; */
+"jL0-l5-3QR.text" = "Error";
+
+/* Class = "IBUILabel"; text = "Shell"; ObjectID = "jLS-Ia-RW5"; */
+"jLS-Ia-RW5.text" = "Shell";
+
+/* Class = "IBUINavigationItem"; title = "User Details"; ObjectID = "kH9-Zb-OYf"; */
+"kH9-Zb-OYf.title" = "User Details";
+
+/* Class = "IBUITableViewController"; title = "Users"; ObjectID = "kzW-jo-wCb"; */
+"kzW-jo-wCb.title" = "Users";
+
+/* Class = "IBUITextField"; placeholder = "Log-in password"; ObjectID = "leA-dC-Vo9"; */
+"leA-dC-Vo9.placeholder" = "Log-in password";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "lzm-uJ-a9l"; */
+"lzm-uJ-a9l.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "m19-G6-qXf"; */
+"m19-G6-qXf.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Error"; ObjectID = "mbu-7N-A4e"; */
+"mbu-7N-A4e.text" = "Error";
+
+/* Class = "IBUILabel"; text = "Error"; ObjectID = "mrG-NH-6st"; */
+"mrG-NH-6st.text" = "Error";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "ncI-Y7-rHl"; */
+"ncI-Y7-rHl.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "o8K-iB-cy4"; */
+"o8K-iB-cy4.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ohh-82-WF8"; */
+"ohh-82-WF8.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "pUi-2D-Sk2"; */
+"pUi-2D-Sk2.text" = "Title";
+
+/* Class = "IBUINavigationItem"; title = "Users"; ObjectID = "paI-VE-bTc"; */
+"paI-VE-bTc.title" = "Users";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "pfh-5U-aTO"; */
+"pfh-5U-aTO.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Type"; ObjectID = "qVv-BU-FTV"; */
+"qVv-BU-FTV.text" = "Type";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "qgK-1w-6fk"; */
+"qgK-1w-6fk.text" = "Title";
+
+/* Class = "IBUITabBarItem"; badgeValue = "1"; ObjectID = "qsO-Ke-yOK"; */
+"qsO-Ke-yOK.badgeValue" = "";
+
+/* Class = "IBUITabBarItem"; title = "Activity"; ObjectID = "qsO-Ke-yOK"; */
+"qsO-Ke-yOK.title" = "Activity";
+
+/* Class = "IBUIButton"; normalTitle = "Check Availability"; ObjectID = "r1u-T9-kdx"; */
+"r1u-T9-kdx.normalTitle" = "Check Availability";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "rvO-7F-5py"; */
+"rvO-7F-5py.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "sce-8N-5mx"; */
+"sce-8N-5mx.text" = "Subtitle";
+
+/* Class = "IBUITextField"; placeholder = "Key from your DreamHost Web Panel"; ObjectID = "tXU-Sf-EHC"; */
+"tXU-Sf-EHC.placeholder" = "Key from your DreamHost Web Panel";
+
+/* Class = "IBUISegmentedControl"; uOP-wd-Muz.segmentTitles[0] = "bash"; ObjectID = "uOP-wd-Muz"; */
+"uOP-wd-Muz.segmentTitles[0]" = "bash";
+
+/* Class = "IBUISegmentedControl"; uOP-wd-Muz.segmentTitles[1] = "tcsh"; ObjectID = "uOP-wd-Muz"; */
+"uOP-wd-Muz.segmentTitles[1]" = "tcsh";
+
+/* Class = "IBUISegmentedControl"; uOP-wd-Muz.segmentTitles[2] = "ksh"; ObjectID = "uOP-wd-Muz"; */
+"uOP-wd-Muz.segmentTitles[2]" = "ksh";
+
+/* Class = "IBUISegmentedControl"; uOP-wd-Muz.segmentTitles[3] = "zsh"; ObjectID = "uOP-wd-Muz"; */
+"uOP-wd-Muz.segmentTitles[3]" = "zsh";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "uag-fR-e2h"; */
+"uag-fR-e2h.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "v4j-pX-iSs"; */
+"v4j-pX-iSs.text" = "Title";
+
+/* Class = "IBUIBarButtonItem"; title = "API Keys"; ObjectID = "wUR-lp-42W"; */
+"wUR-lp-42W.title" = "API Keys";
+
+/* Class = "IBUINavigationItem"; title = "All Commands"; ObjectID = "wYQ-dE-Ne8"; */
+"wYQ-dE-Ne8.title" = "All Commands";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "xZi-VB-Y5u"; */
+"xZi-VB-Y5u.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "xpP-0I-U4h"; */
+"xpP-0I-U4h.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "yMr-7g-DHx"; */
+"yMr-7g-DHx.text" = "Subtitle";
