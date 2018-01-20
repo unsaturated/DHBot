@@ -1,0 +1,1708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		335E6F68E57442658DDF5119 /* libPods-DHBot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 678D8DE63FFF4A71BCECA721 /* libPods-DHBot.a */; };
+		C8076BFB1AA2CF7400FCA7A7 /* DHMCommandTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C96128CF187E43D40043A497 /* DHMCommandTableCell.m */; };
+		C816DEF11A92E1CA008CB7AB /* DHMHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C816DEF01A92E1CA008CB7AB /* DHMHistoryTableViewController.m */; };
+		C89D84741A8B04C1007CE3C0 /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C89D84731A8B04C1007CE3C0 /* BannerViewController.m */; };
+		C8BAF1DB1A943C6000111607 /* DHMCommandHistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BAF1DA1A943C6000111607 /* DHMCommandHistoryModel.m */; };
+		C8E987871A89BDFA0078EC38 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E987861A89BDFA0078EC38 /* iAd.framework */; };
+		C8F5F7D31A92E67800C6482F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8F5F7D21A92E67800C6482F /* Settings.bundle */; };
+		C901823A18912A19001331FC /* DHMListMailFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C901823918912A19001331FC /* DHMListMailFiltersViewController.m */; };
+		C906587C18A79A540072EE70 /* DHMSingleCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C906587B18A79A540072EE70 /* DHMSingleCommandViewController.m */; };
+		C9068F581898B450009BEDDF /* DHMListPsImagesDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9068F571898B450009BEDDF /* DHMListPsImagesDataItem.m */; };
+		C9068F5E1898B8D6009BEDDF /* DHMListDomainsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9068F5D1898B8D6009BEDDF /* DHMListDomainsViewController.m */; };
+		C90B3FA617F3EB0100332975 /* DHMListUsersCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C90B3FA517F3EB0100332975 /* DHMListUsersCommand.m */; };
+		C90D9FF11883892300F453AF /* DHMAccountStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90D9FF01883892300F453AF /* DHMAccountStatusViewController.m */; };
+		C911A47F189C90AF00543574 /* DHMAvailableApiCommandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C911A47E189C90AF00543574 /* DHMAvailableApiCommandsViewController.m */; };
+		C911A485189CB9EF00543574 /* DHMDomainCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C911A484189CB9EF00543574 /* DHMDomainCheckViewController.m */; };
+		C9149BEE17FFC0EB00C2BBA5 /* DHMErrorData.m in Sources */ = {isa = PBXBuildFile; fileRef = C9149BED17FFC0EB00C2BBA5 /* DHMErrorData.m */; };
+		C917727918ACE4030027B02B /* DHMAddUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C917727818ACE4020027B02B /* DHMAddUserViewController.m */; };
+		C91816F918332E11009A8DC7 /* DHMListRewardReferralSummaryCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C91816F818332E11009A8DC7 /* DHMListRewardReferralSummaryCommand.m */; };
+		C91AE73E18777EC5001BF45F /* ZAActivityBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C91AE73D18777EC5001BF45F /* ZAActivityBar.m */; };
+		C91AE74518778351001BF45F /* SKBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C91AE74418778351001BF45F /* SKBounceAnimation.m */; };
+		C91D1CD11899F0A10091FE86 /* DHMListRegistrationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C91D1CD01899F0A10091FE86 /* DHMListRegistrationsViewController.m */; };
+		C922BDDD18AB20370009862E /* DHMListApiKeysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C922BDDC18AB20370009862E /* DHMListApiKeysViewController.m */; };
+		C922BDE318AB2EDC0009862E /* DHMAddUserDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C922BDE218AB2EDC0009862E /* DHMAddUserDataItem.m */; };
+		C924221318E82830009732DB /* DHMAddMailFilterDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C924221218E82830009732DB /* DHMAddMailFilterDataItem.m */; };
+		C924221918E8284F009732DB /* DHMRemoveMailFilterDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C924221818E8284F009732DB /* DHMRemoveMailFilterDataItem.m */; };
+		C924221C18E82AE0009732DB /* DHMAddDnsDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C924221B18E82AE0009732DB /* DHMAddDnsDataItem.m */; };
+		C924221F18E82AF0009732DB /* DHMRemoveDnsDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C924221E18E82AF0009732DB /* DHMRemoveDnsDataItem.m */; };
+		C924222218E83550009732DB /* DHMAddMySqlHostnameDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C924222118E83550009732DB /* DHMAddMySqlHostnameDataItem.m */; };
+		C924222518E83573009732DB /* DHMRemoveMySqlHostnameDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C924222418E83573009732DB /* DHMRemoveMySqlHostnameDataItem.m */; };
+		C924222818E83596009732DB /* DHMAddMySqlUserDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C924222718E83596009732DB /* DHMAddMySqlUserDataItem.m */; };
+		C924222B18E835B4009732DB /* DHMRemoveMySqlUserDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C924222A18E835B4009732DB /* DHMRemoveMySqlUserDataItem.m */; };
+		C9242E771A008C2C00E0B643 /* DHMListPsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9242E761A008C2C00E0B643 /* DHMListPsDetailViewController.m */; };
+		C924CDEE19EDF0500081752C /* DHMListRegistrationsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C924CDED19EDF0500081752C /* DHMListRegistrationsDetailViewController.m */; };
+		C925FE1E188A8E9F004F2FCE /* DHMListMySqlDbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C925FE1D188A8E9F004F2FCE /* DHMListMySqlDbViewController.m */; };
+		C925FE24188A9DD8004F2FCE /* DHMListMySqlHostnameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C925FE23188A9DD8004F2FCE /* DHMListMySqlHostnameViewController.m */; };
+		C92A122118EAD7EF00457160 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C92A122318EAD7EF00457160 /* Localizable.strings */; };
+		C92B4D7A188E865100AF1984 /* DHMListAnnounceListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92B4D79188E865100AF1984 /* DHMListAnnounceListsViewController.m */; };
+		C92B4D80188E8F7000AF1984 /* DHMListDnsRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92B4D7F188E8F7000AF1984 /* DHMListDnsRecordsViewController.m */; };
+		C92B4DC61874994800E554AC /* DHMListDnsRecordsDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C92B4DC51874994800E554AC /* DHMListDnsRecordsDataItem.m */; };
+		C930229818B3738C007A527D /* DHMRemoveUserDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C930229718B3738C007A527D /* DHMRemoveUserDataItem.m */; };
+		C93204131884D74B00DD1B68 /* DHMListMySqlDbDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C93204121884D74B00DD1B68 /* DHMListMySqlDbDataItem.m */; };
+		C93204191884D95300DD1B68 /* DHMListMySqlHostnameDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C93204181884D95300DD1B68 /* DHMListMySqlHostnameDataItem.m */; };
+		C932041C1884DBC500DD1B68 /* DHMListMySqlUsersDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C932041B1884DBC500DD1B68 /* DHMListMySqlUsersDataItem.m */; };
+		C932041F1884E5D100DD1B68 /* DHMListMailFiltersDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C932041E1884E5D100DD1B68 /* DHMListMailFiltersDataItem.m */; };
+		C93204221884EC0700DD1B68 /* DHMListAnnounceListsDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C93204211884EC0700DD1B68 /* DHMListAnnounceListsDataItem.m */; };
+		C934498D18E6D48F00EDE5C4 /* DHMListAnnounceSubscribersDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C934498C18E6D48F00EDE5C4 /* DHMListAnnounceSubscribersDataItem.m */; };
+		C934499318E6D8E400EDE5C4 /* DHMAddAnnounceSubscrberDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C934499218E6D8E400EDE5C4 /* DHMAddAnnounceSubscrberDataItem.m */; };
+		C934499618E6E01E00EDE5C4 /* DHMRemoveAnnounceSubscriberDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C934499518E6E01E00EDE5C4 /* DHMRemoveAnnounceSubscriberDataItem.m */; };
+		C934499918E6E0F700EDE5C4 /* DHMPostAnnounceDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C934499818E6E0F700EDE5C4 /* DHMPostAnnounceDataItem.m */; };
+		C935E04C1874FF68007037FB /* DHMAccountUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C935E04B1874FF68007037FB /* DHMAccountUsageViewController.m */; };
+		C9363254188A1C6400BD2988 /* DHMListPsDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9363253188A1C6400BD2988 /* DHMListPsDataItem.m */; };
+		C936325A188A221C00BD2988 /* DHMListPsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9363259188A221C00BD2988 /* DHMListPsViewController.m */; };
+		C93BE8BE18977A7900E63C0B /* DHMSingleCommandTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93BE8BD18977A7900E63C0B /* DHMSingleCommandTableViewController.m */; };
+		C9456DB218824B13005BEC05 /* DHMAccountSshKeysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9456DB118824B13005BEC05 /* DHMAccountSshKeysViewController.m */; };
+		C945DAE9188D3E1F00F5B0F5 /* DHMListMySqlUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C945DAE8188D3E1F00F5B0F5 /* DHMListMySqlUserViewController.m */; };
+		C949EF7D18EAC96800F69D69 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C949EF7B18EAC96800F69D69 /* MainStoryboard.storyboard */; };
+		C94B9225180CDB3B00E11CFE /* DHMController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94B9224180CDB3B00E11CFE /* DHMController.m */; };
+		C94ECB561831D05600DA5364 /* DHMAddMailFilterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C94ECB551831D05600DA5364 /* DHMAddMailFilterCommand.m */; };
+		C94ECB591831D35B00DA5364 /* DHMRemoveMailFilterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C94ECB581831D35B00DA5364 /* DHMRemoveMailFilterCommand.m */; };
+		C94ECB5C1831D4A400DA5364 /* DHMListMailFiltersCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C94ECB5B1831D4A400DA5364 /* DHMListMailFiltersCommand.m */; };
+		C94ECB601831DE0700DA5364 /* DHMAddRewardPromoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C94ECB5F1831DE0700DA5364 /* DHMAddRewardPromoCommand.m */; };
+		C94ECB631831DFC400DA5364 /* DHMRemoveRewardPromoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C94ECB621831DFC400DA5364 /* DHMRemoveRewardPromoCommand.m */; };
+		C94ECB661831E11600DA5364 /* DHMEnableRewardPromoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C94ECB651831E11600DA5364 /* DHMEnableRewardPromoCommand.m */; };
+		C94ECB691831E1DB00DA5364 /* DHMDisableRewardPromoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C94ECB681831E1DB00DA5364 /* DHMDisableRewardPromoCommand.m */; };
+		C94ECB6C1831E36700DA5364 /* DHMListRewardPromosCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C94ECB6B1831E36700DA5364 /* DHMListRewardPromosCommand.m */; };
+		C95332BF1845B06900A29C78 /* DHMCommandCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C95332BE1845B06900A29C78 /* DHMCommandCategory.m */; };
+		C95D3F3917EA9481007B0D3F /* DHMUserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95D3F3817EA9481007B0D3F /* DHMUserDetailViewController.m */; };
+		C960C10419A58C23005337E7 /* AssetCatalog.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C960C10319A58C23005337E7 /* AssetCatalog.xcassets */; };
+		C960C10719A59216005337E7 /* DHMMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C960C10619A59216005337E7 /* DHMMainTabBarViewController.m */; };
+		C966906017E3F3C60076A71E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966905F17E3F3C60076A71E /* UIKit.framework */; };
+		C966906217E3F3C60076A71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966906117E3F3C60076A71E /* Foundation.framework */; };
+		C966906417E3F3C60076A71E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C966906317E3F3C60076A71E /* CoreGraphics.framework */; };
+		C966907017E3F3C60076A71E /* DHMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C966906F17E3F3C60076A71E /* DHMAppDelegate.m */; };
+		C966907C17E3F3C60076A71E /* DHMUserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C966907B17E3F3C60076A71E /* DHMUserTableViewController.m */; };
+		C966908417E3F60D0076A71E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C966908317E3F60D0076A71E /* main.m */; };
+		C96730CE1807A4B000B4A528 /* DHMListApiCapabilitiesCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96730CD1807A4B000B4A528 /* DHMListApiCapabilitiesCommand.m */; };
+		C96730D41807B96000B4A528 /* DHMApiCommandData.m in Sources */ = {isa = PBXBuildFile; fileRef = C96730D31807B96000B4A528 /* DHMApiCommandData.m */; };
+		C96730D71807BC9100B4A528 /* DHMAccessibleCommandsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96730D61807BC9100B4A528 /* DHMAccessibleCommandsTableViewController.m */; };
+		C9677A23186E7A37002F49FA /* DHMAccountSshKeysDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9677A22186E7A37002F49FA /* DHMAccountSshKeysDataItem.m */; };
+		C9677A29186E7F00002F49FA /* DHMApiListKeysDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9677A28186E7F00002F49FA /* DHMApiListKeysDataItem.m */; };
+		C9677A2D186E8789002F49FA /* DHMDomainCheckDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9677A2C186E8789002F49FA /* DHMDomainCheckDataItem.m */; };
+		C96CC801182C870400B6186C /* DHMListRegistrationsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96CC800182C870400B6186C /* DHMListRegistrationsCommand.m */; };
+		C96CC807182C880700B6186C /* DHMDomainCheckCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96CC806182C880700B6186C /* DHMDomainCheckCommand.m */; };
+		C96CC80A182C8C2800B6186C /* DHMAddDnsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96CC809182C8C2800B6186C /* DHMAddDnsCommand.m */; };
+		C96CC80D182C95E300B6186C /* DHMRemoveDnsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96CC80C182C95E300B6186C /* DHMRemoveDnsCommand.m */; };
+		C96CC811182C995A00B6186C /* DHMListMySqlDbCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96CC810182C995A00B6186C /* DHMListMySqlDbCommand.m */; };
+		C96CC814182C9BDD00B6186C /* DHMListMySqlHostnamesCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96CC813182C9BDD00B6186C /* DHMListMySqlHostnamesCommand.m */; };
+		C96CC817182C9CC600B6186C /* DHMAddMySqlHostnameCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96CC816182C9CC600B6186C /* DHMAddMySqlHostnameCommand.m */; };
+		C96CC81A182C9E5000B6186C /* DHMRemoveMySqlHostnameCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96CC819182C9E4F00B6186C /* DHMRemoveMySqlHostnameCommand.m */; };
+		C96E6480183475870018D1F6 /* DHMRebootPsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96E647F183475870018D1F6 /* DHMRebootPsCommand.m */; };
+		C96E6486183478190018D1F6 /* DHMAddPsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96E6485183478190018D1F6 /* DHMAddPsCommand.m */; };
+		C96E648918347BED0018D1F6 /* DHMRemovePsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96E648818347BED0018D1F6 /* DHMRemovePsCommand.m */; };
+		C96E648C18347D9D0018D1F6 /* DHMListPendingPsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96E648B18347D9D0018D1F6 /* DHMListPendingPsCommand.m */; };
+		C96E648F18347E790018D1F6 /* DHMRemovePendingPsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96E648E18347E780018D1F6 /* DHMRemovePendingPsCommand.m */; };
+		C96E64921834830F0018D1F6 /* DHMListSettingsPsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96E64911834830F0018D1F6 /* DHMListSettingsPsCommand.m */; };
+		C96E6495183485F20018D1F6 /* DHMUpdateSettingsPsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96E6494183485F20018D1F6 /* DHMUpdateSettingsPsCommand.m */; };
+		C96E649818348A550018D1F6 /* DHMListSizeHistoryPsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96E649718348A540018D1F6 /* DHMListSizeHistoryPsCommand.m */; };
+		C96E649B18348C190018D1F6 /* DHMSetSizePsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96E649A18348C180018D1F6 /* DHMSetSizePsCommand.m */; };
+		C96E649E18348DE10018D1F6 /* DHMListRebootHistoryPsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96E649D18348DE00018D1F6 /* DHMListRebootHistoryPsCommand.m */; };
+		C96E64A118348ED80018D1F6 /* DHMListImagesPsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96E64A018348ED70018D1F6 /* DHMListImagesPsCommand.m */; };
+		C96EBD9F1835CC2F00ABA5D0 /* DHMListAnnounceListsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96EBD9E1835CC2F00ABA5D0 /* DHMListAnnounceListsCommand.m */; };
+		C96EBDA21835CC8900ABA5D0 /* DHMListAnnounceSubscribersCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96EBDA11835CC8900ABA5D0 /* DHMListAnnounceSubscribersCommand.m */; };
+		C96EBDA51835CCA500ABA5D0 /* DHMAddAnnounceSubscriberCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96EBDA41835CCA500ABA5D0 /* DHMAddAnnounceSubscriberCommand.m */; };
+		C96EBDA81835CCFD00ABA5D0 /* DHMRemoveAnnounceSubscriberCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96EBDA71835CCFD00ABA5D0 /* DHMRemoveAnnounceSubscriberCommand.m */; };
+		C96EBDAB1835CD4900ABA5D0 /* DHMPostAnnounceCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C96EBDAA1835CD4900ABA5D0 /* DHMPostAnnounceCommand.m */; };
+		C971574A17F52BB1003103DA /* DHMBaseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C971574917F52BB1003103DA /* DHMBaseCommand.m */; };
+		C972995718370D7700BEA45E /* DHMServiceProgressCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C972995618370D7700BEA45E /* DHMServiceProgressCommand.m */; };
+		C972F1F61808EE57004F36D6 /* DHMKeyListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C972F1F51808EE57004F36D6 /* DHMKeyListTableViewController.m */; };
+		C972F1FC1808F65D004F36D6 /* DHMKeyListNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C972F1FB1808F65D004F36D6 /* DHMKeyListNavViewController.m */; };
+		C978264517E6AED9005867D2 /* DHMListUserDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C978264417E6AED9005867D2 /* DHMListUserDataItem.m */; };
+		C97C6E011818A80D0031F4EF /* DHMListApiKeysCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C6E001818A80D0031F4EF /* DHMListApiKeysCommand.m */; };
+		C97C6E081818B63F0031F4EF /* DHMListDnsRecordsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C6E071818B63F0031F4EF /* DHMListDnsRecordsCommand.m */; };
+		C97C6E0C1818B6880031F4EF /* DHMListDomainsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C6E0B1818B6880031F4EF /* DHMListDomainsCommand.m */; };
+		C97C6E101818BC7F0031F4EF /* DHMListPsUsageCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C6E0F1818BC7F0031F4EF /* DHMListPsUsageCommand.m */; };
+		C97C6E131818BFF40031F4EF /* DHMListPsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C97C6E121818BFF40031F4EF /* DHMListPsCommand.m */; };
+		C980C9FA1809C84700A68617 /* DHMApiKeyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C9F91809C84700A68617 /* DHMApiKeyModel.m */; };
+		C98218811829E6D200258FA3 /* DHMAccountDomainUsageCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C98218801829E6D200258FA3 /* DHMAccountDomainUsageCommand.m */; };
+		C98218871829E9B500258FA3 /* DHMAccountStatusCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C98218861829E9B500258FA3 /* DHMAccountStatusCommand.m */; };
+		C982188A1829EB4000258FA3 /* DHMAccountUserUsageCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C98218891829EB4000258FA3 /* DHMAccountUserUsageCommand.m */; };
+		C982188D1829ECF900258FA3 /* DHMAccountSshKeysCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C982188C1829ECF900258FA3 /* DHMAccountSshKeysCommand.m */; };
+		C98218901829EF1A00258FA3 /* DHMAddUserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C982188F1829EF1A00258FA3 /* DHMAddUserCommand.m */; };
+		C98218931829F06D00258FA3 /* DHMRemoveUserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C98218921829F06D00258FA3 /* DHMRemoveUserCommand.m */; };
+		C9859C7A199862FF0068548E /* DHMListJabberUsersCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C9859C79199862FF0068548E /* DHMListJabberUsersCommand.m */; };
+		C9859C7D199864C90068548E /* DHMListJabberUsersDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9859C7C199864C90068548E /* DHMListJabberUsersDataItem.m */; };
+		C98C2BE2183035A300543390 /* DHMAddMySqlUserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C98C2BE1183035A300543390 /* DHMAddMySqlUserCommand.m */; };
+		C98C2BE9183041CC00543390 /* DHMRemoveMySqlUserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C98C2BE8183041CC00543390 /* DHMRemoveMySqlUserCommand.m */; };
+		C98C2BEF1830472500543390 /* DHMListMySqlUsersCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C98C2BEE1830472500543390 /* DHMListMySqlUsersCommand.m */; };
+		C98DA30019A1A19300ECD8BC /* DHMOnboardingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DA2FF19A1A19300ECD8BC /* DHMOnboardingSegue.m */; };
+		C98DFE5E1804E1C50074C90F /* DHMBaseData.m in Sources */ = {isa = PBXBuildFile; fileRef = C98DFE5D1804E1C50074C90F /* DHMBaseData.m */; };
+		C998D4A117EE29100071B4F2 /* DHMPagedOnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C998D4A017EE29100071B4F2 /* DHMPagedOnboardingViewController.m */; };
+		C998D4A717EE95C00071B4F2 /* DHMApi.m in Sources */ = {isa = PBXBuildFile; fileRef = C998D4A617EE95C00071B4F2 /* DHMApi.m */; };
+		C999B7E418331C78004D3C63 /* DHMListRewardPromoDetailCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C999B7E318331C78004D3C63 /* DHMListRewardPromoDetailCommand.m */; };
+		C999B7EA18332024004D3C63 /* DHMListRewardReferralsPromoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C999B7E918332024004D3C63 /* DHMListRewardReferralsPromoCommand.m */; };
+		C99A44B517E3FC0E00AE7CDB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99A44AE17E3FC0E00AE7CDB /* CFNetwork.framework */; };
+		C99A44B617E3FC0E00AE7CDB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99A44AF17E3FC0E00AE7CDB /* CoreData.framework */; };
+		C99A44B717E3FC0E00AE7CDB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C99A44B017E3FC0E00AE7CDB /* libxml2.dylib */; };
+		C99A44B817E3FC0E00AE7CDB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99A44B117E3FC0E00AE7CDB /* MobileCoreServices.framework */; };
+		C99A44B917E3FC0E00AE7CDB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99A44B217E3FC0E00AE7CDB /* QuartzCore.framework */; };
+		C99A44BA17E3FC0E00AE7CDB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99A44B317E3FC0E00AE7CDB /* Security.framework */; };
+		C99A44BB17E3FC0E00AE7CDB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99A44B417E3FC0E00AE7CDB /* SystemConfiguration.framework */; };
+		C9A1F8ED19A0FE5C00ACD6B4 /* EAIntroPage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A1F8EC19A0FE5C00ACD6B4 /* EAIntroPage+Extensions.m */; };
+		C9ABB79D180E2E60004F6F1E /* DHMKeyListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ABB79C180E2E60004F6F1E /* DHMKeyListDetailViewController.m */; };
+		C9B87D371A64C5120010BF54 /* DHMServiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B87D361A64C5120010BF54 /* DHMServiceTableViewController.m */; };
+		C9C8E7871A6753DA00A3C631 /* DHMApiKeyServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C8E7861A6753DA00A3C631 /* DHMApiKeyServiceModel.m */; };
+		C9C8E78B1A6784E800A3C631 /* DHMRebootPsDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C8E78A1A6784E800A3C631 /* DHMRebootPsDataItem.m */; };
+		C9D4B8301999A24000050F40 /* DHMListJabberUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D4B82F1999A24000050F40 /* DHMListJabberUsersViewController.m */; };
+		C9F704E4188182C8009FAC09 /* DHMUserUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F704E3188182C8009FAC09 /* DHMUserUsageViewController.m */; };
+		C9F8B5C11872514D00DC1313 /* DHMListDomainsDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F8B5C01872514D00DC1313 /* DHMListDomainsDataItem.m */; };
+		C9F8B5C7187270FD00DC1313 /* DHMListRegistrationsDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F8B5C6187270FD00DC1313 /* DHMListRegistrationsDataItem.m */; };
+		C9FE870B186DC1C500275D79 /* DHMAccountStatusDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FE8708186DC1C500275D79 /* DHMAccountStatusDataItem.m */; };
+		C9FE870C186DC1C500275D79 /* DHMAccountUsageDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FE870A186DC1C500275D79 /* DHMAccountUsageDataItem.m */; };
+		C9FE8712186DC1F500275D79 /* DHMAccountUserUsageDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FE8711186DC1F500275D79 /* DHMAccountUserUsageDataItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		470BD7481E51A9D2D27C1F79 /* Pods-DHBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHBot/Pods-DHBot.debug.xcconfig"; sourceTree = "<group>"; };
+		678D8DE63FFF4A71BCECA721 /* libPods-DHBot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHBot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B8AFD5C6AF5205BECCEC45 /* Pods-DHBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHBot/Pods-DHBot.release.xcconfig"; sourceTree = "<group>"; };
+		C816DEEF1A92E1CA008CB7AB /* DHMHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMHistoryTableViewController.h; sourceTree = "<group>"; };
+		C816DEF01A92E1CA008CB7AB /* DHMHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMHistoryTableViewController.m; sourceTree = "<group>"; };
+		C89D84721A8B04C1007CE3C0 /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
+		C89D84731A8B04C1007CE3C0 /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
+		C8BAF1D91A943C6000111607 /* DHMCommandHistoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMCommandHistoryModel.h; sourceTree = "<group>"; };
+		C8BAF1DA1A943C6000111607 /* DHMCommandHistoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMCommandHistoryModel.m; sourceTree = "<group>"; };
+		C8E987861A89BDFA0078EC38 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C8F5F7D21A92E67800C6482F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		C901823818912A19001331FC /* DHMListMailFiltersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListMailFiltersViewController.h; sourceTree = "<group>"; };
+		C901823918912A19001331FC /* DHMListMailFiltersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListMailFiltersViewController.m; sourceTree = "<group>"; };
+		C906587A18A79A540072EE70 /* DHMSingleCommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMSingleCommandViewController.h; sourceTree = "<group>"; };
+		C906587B18A79A540072EE70 /* DHMSingleCommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMSingleCommandViewController.m; sourceTree = "<group>"; };
+		C9068F561898B450009BEDDF /* DHMListPsImagesDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListPsImagesDataItem.h; sourceTree = "<group>"; };
+		C9068F571898B450009BEDDF /* DHMListPsImagesDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListPsImagesDataItem.m; sourceTree = "<group>"; };
+		C9068F5C1898B8D6009BEDDF /* DHMListDomainsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListDomainsViewController.h; sourceTree = "<group>"; };
+		C9068F5D1898B8D6009BEDDF /* DHMListDomainsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListDomainsViewController.m; sourceTree = "<group>"; };
+		C90B3FA117F3E57000332975 /* DHMCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHMCommand.h; sourceTree = "<group>"; };
+		C90B3FA417F3EB0100332975 /* DHMListUsersCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListUsersCommand.h; sourceTree = "<group>"; };
+		C90B3FA517F3EB0100332975 /* DHMListUsersCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListUsersCommand.m; sourceTree = "<group>"; };
+		C90D9FEF1883892300F453AF /* DHMAccountStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAccountStatusViewController.h; sourceTree = "<group>"; };
+		C90D9FF01883892300F453AF /* DHMAccountStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAccountStatusViewController.m; sourceTree = "<group>"; };
+		C911A47D189C90AF00543574 /* DHMAvailableApiCommandsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAvailableApiCommandsViewController.h; sourceTree = "<group>"; };
+		C911A47E189C90AF00543574 /* DHMAvailableApiCommandsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAvailableApiCommandsViewController.m; sourceTree = "<group>"; };
+		C911A483189CB9EF00543574 /* DHMDomainCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMDomainCheckViewController.h; sourceTree = "<group>"; };
+		C911A484189CB9EF00543574 /* DHMDomainCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMDomainCheckViewController.m; sourceTree = "<group>"; };
+		C9146B7D19BE95A7004C671D /* DHMStoreHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMStoreHelper.h; sourceTree = "<group>"; };
+		C9146B7E19BE95A7004C671D /* DHMStoreHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMStoreHelper.m; sourceTree = "<group>"; };
+		C9149BEC17FFC0EB00C2BBA5 /* DHMErrorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMErrorData.h; sourceTree = "<group>"; };
+		C9149BED17FFC0EB00C2BBA5 /* DHMErrorData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMErrorData.m; sourceTree = "<group>"; };
+		C917727718ACE4020027B02B /* DHMAddUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddUserViewController.h; sourceTree = "<group>"; };
+		C917727818ACE4020027B02B /* DHMAddUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddUserViewController.m; sourceTree = "<group>"; };
+		C91816F718332E11009A8DC7 /* DHMListRewardReferralSummaryCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListRewardReferralSummaryCommand.h; sourceTree = "<group>"; };
+		C91816F818332E11009A8DC7 /* DHMListRewardReferralSummaryCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListRewardReferralSummaryCommand.m; sourceTree = "<group>"; };
+		C91AE73C18777EC5001BF45F /* ZAActivityBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAActivityBar.h; sourceTree = "<group>"; };
+		C91AE73D18777EC5001BF45F /* ZAActivityBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAActivityBar.m; sourceTree = "<group>"; };
+		C91AE74318778351001BF45F /* SKBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBounceAnimation.h; sourceTree = "<group>"; };
+		C91AE74418778351001BF45F /* SKBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBounceAnimation.m; sourceTree = "<group>"; };
+		C91D1CCF1899F0A10091FE86 /* DHMListRegistrationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListRegistrationsViewController.h; sourceTree = "<group>"; };
+		C91D1CD01899F0A10091FE86 /* DHMListRegistrationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListRegistrationsViewController.m; sourceTree = "<group>"; };
+		C922BDDB18AB20370009862E /* DHMListApiKeysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListApiKeysViewController.h; sourceTree = "<group>"; };
+		C922BDDC18AB20370009862E /* DHMListApiKeysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListApiKeysViewController.m; sourceTree = "<group>"; };
+		C922BDE118AB2EDC0009862E /* DHMAddUserDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddUserDataItem.h; sourceTree = "<group>"; };
+		C922BDE218AB2EDC0009862E /* DHMAddUserDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddUserDataItem.m; sourceTree = "<group>"; };
+		C924221118E82830009732DB /* DHMAddMailFilterDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddMailFilterDataItem.h; sourceTree = "<group>"; };
+		C924221218E82830009732DB /* DHMAddMailFilterDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddMailFilterDataItem.m; sourceTree = "<group>"; };
+		C924221718E8284F009732DB /* DHMRemoveMailFilterDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveMailFilterDataItem.h; sourceTree = "<group>"; };
+		C924221818E8284F009732DB /* DHMRemoveMailFilterDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveMailFilterDataItem.m; sourceTree = "<group>"; };
+		C924221A18E82AE0009732DB /* DHMAddDnsDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddDnsDataItem.h; sourceTree = "<group>"; };
+		C924221B18E82AE0009732DB /* DHMAddDnsDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddDnsDataItem.m; sourceTree = "<group>"; };
+		C924221D18E82AF0009732DB /* DHMRemoveDnsDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveDnsDataItem.h; sourceTree = "<group>"; };
+		C924221E18E82AF0009732DB /* DHMRemoveDnsDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveDnsDataItem.m; sourceTree = "<group>"; };
+		C924222018E83550009732DB /* DHMAddMySqlHostnameDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddMySqlHostnameDataItem.h; sourceTree = "<group>"; };
+		C924222118E83550009732DB /* DHMAddMySqlHostnameDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddMySqlHostnameDataItem.m; sourceTree = "<group>"; };
+		C924222318E83573009732DB /* DHMRemoveMySqlHostnameDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveMySqlHostnameDataItem.h; sourceTree = "<group>"; };
+		C924222418E83573009732DB /* DHMRemoveMySqlHostnameDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveMySqlHostnameDataItem.m; sourceTree = "<group>"; };
+		C924222618E83596009732DB /* DHMAddMySqlUserDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddMySqlUserDataItem.h; sourceTree = "<group>"; };
+		C924222718E83596009732DB /* DHMAddMySqlUserDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddMySqlUserDataItem.m; sourceTree = "<group>"; };
+		C924222918E835B4009732DB /* DHMRemoveMySqlUserDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveMySqlUserDataItem.h; sourceTree = "<group>"; };
+		C924222A18E835B4009732DB /* DHMRemoveMySqlUserDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveMySqlUserDataItem.m; sourceTree = "<group>"; };
+		C9242E751A008C2C00E0B643 /* DHMListPsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListPsDetailViewController.h; sourceTree = "<group>"; };
+		C9242E761A008C2C00E0B643 /* DHMListPsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListPsDetailViewController.m; sourceTree = "<group>"; };
+		C924CDEC19EDF0500081752C /* DHMListRegistrationsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListRegistrationsDetailViewController.h; sourceTree = "<group>"; };
+		C924CDED19EDF0500081752C /* DHMListRegistrationsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListRegistrationsDetailViewController.m; sourceTree = "<group>"; };
+		C925FE1C188A8E9E004F2FCE /* DHMListMySqlDbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListMySqlDbViewController.h; sourceTree = "<group>"; };
+		C925FE1D188A8E9F004F2FCE /* DHMListMySqlDbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListMySqlDbViewController.m; sourceTree = "<group>"; };
+		C925FE22188A9DD8004F2FCE /* DHMListMySqlHostnameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListMySqlHostnameViewController.h; sourceTree = "<group>"; };
+		C925FE23188A9DD8004F2FCE /* DHMListMySqlHostnameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListMySqlHostnameViewController.m; sourceTree = "<group>"; };
+		C92A122218EAD7EF00457160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C92A122418EAD81600457160 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/MainStoryboard.strings; sourceTree = "<group>"; };
+		C92A122518EAD81600457160 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C92A122618EAD83600457160 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Resources/fr.lproj/MainStoryboard.strings; sourceTree = "<group>"; };
+		C92A122718EAD83600457160 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C92B4D78188E865100AF1984 /* DHMListAnnounceListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListAnnounceListsViewController.h; sourceTree = "<group>"; };
+		C92B4D79188E865100AF1984 /* DHMListAnnounceListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListAnnounceListsViewController.m; sourceTree = "<group>"; };
+		C92B4D7E188E8F7000AF1984 /* DHMListDnsRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListDnsRecordsViewController.h; sourceTree = "<group>"; };
+		C92B4D7F188E8F7000AF1984 /* DHMListDnsRecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListDnsRecordsViewController.m; sourceTree = "<group>"; };
+		C92B4DC41874994800E554AC /* DHMListDnsRecordsDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListDnsRecordsDataItem.h; sourceTree = "<group>"; };
+		C92B4DC51874994800E554AC /* DHMListDnsRecordsDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListDnsRecordsDataItem.m; sourceTree = "<group>"; };
+		C930229618B3738C007A527D /* DHMRemoveUserDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveUserDataItem.h; sourceTree = "<group>"; };
+		C930229718B3738C007A527D /* DHMRemoveUserDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveUserDataItem.m; sourceTree = "<group>"; };
+		C93204111884D74B00DD1B68 /* DHMListMySqlDbDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListMySqlDbDataItem.h; sourceTree = "<group>"; };
+		C93204121884D74B00DD1B68 /* DHMListMySqlDbDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListMySqlDbDataItem.m; sourceTree = "<group>"; };
+		C93204171884D95300DD1B68 /* DHMListMySqlHostnameDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListMySqlHostnameDataItem.h; sourceTree = "<group>"; };
+		C93204181884D95300DD1B68 /* DHMListMySqlHostnameDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListMySqlHostnameDataItem.m; sourceTree = "<group>"; };
+		C932041A1884DBC500DD1B68 /* DHMListMySqlUsersDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListMySqlUsersDataItem.h; sourceTree = "<group>"; };
+		C932041B1884DBC500DD1B68 /* DHMListMySqlUsersDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListMySqlUsersDataItem.m; sourceTree = "<group>"; };
+		C932041D1884E5D100DD1B68 /* DHMListMailFiltersDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListMailFiltersDataItem.h; sourceTree = "<group>"; };
+		C932041E1884E5D100DD1B68 /* DHMListMailFiltersDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListMailFiltersDataItem.m; sourceTree = "<group>"; };
+		C93204201884EC0700DD1B68 /* DHMListAnnounceListsDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListAnnounceListsDataItem.h; sourceTree = "<group>"; };
+		C93204211884EC0700DD1B68 /* DHMListAnnounceListsDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListAnnounceListsDataItem.m; sourceTree = "<group>"; };
+		C934498B18E6D48F00EDE5C4 /* DHMListAnnounceSubscribersDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListAnnounceSubscribersDataItem.h; sourceTree = "<group>"; };
+		C934498C18E6D48F00EDE5C4 /* DHMListAnnounceSubscribersDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListAnnounceSubscribersDataItem.m; sourceTree = "<group>"; };
+		C934499118E6D8E400EDE5C4 /* DHMAddAnnounceSubscrberDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddAnnounceSubscrberDataItem.h; sourceTree = "<group>"; };
+		C934499218E6D8E400EDE5C4 /* DHMAddAnnounceSubscrberDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddAnnounceSubscrberDataItem.m; sourceTree = "<group>"; };
+		C934499418E6E01E00EDE5C4 /* DHMRemoveAnnounceSubscriberDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveAnnounceSubscriberDataItem.h; sourceTree = "<group>"; };
+		C934499518E6E01E00EDE5C4 /* DHMRemoveAnnounceSubscriberDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveAnnounceSubscriberDataItem.m; sourceTree = "<group>"; };
+		C934499718E6E0F700EDE5C4 /* DHMPostAnnounceDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMPostAnnounceDataItem.h; sourceTree = "<group>"; };
+		C934499818E6E0F700EDE5C4 /* DHMPostAnnounceDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMPostAnnounceDataItem.m; sourceTree = "<group>"; };
+		C935E04A1874FF68007037FB /* DHMAccountUsageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAccountUsageViewController.h; sourceTree = "<group>"; };
+		C935E04B1874FF68007037FB /* DHMAccountUsageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAccountUsageViewController.m; sourceTree = "<group>"; };
+		C9363252188A1C6400BD2988 /* DHMListPsDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListPsDataItem.h; sourceTree = "<group>"; };
+		C9363253188A1C6400BD2988 /* DHMListPsDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListPsDataItem.m; sourceTree = "<group>"; };
+		C9363258188A221C00BD2988 /* DHMListPsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListPsViewController.h; sourceTree = "<group>"; };
+		C9363259188A221C00BD2988 /* DHMListPsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListPsViewController.m; sourceTree = "<group>"; };
+		C937A59519B2A85E0059239A /* DHMNibPointsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DHMNibPointsTableCell.xib; sourceTree = "<group>"; };
+		C93BE8BC18977A7900E63C0B /* DHMSingleCommandTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMSingleCommandTableViewController.h; sourceTree = "<group>"; };
+		C93BE8BD18977A7900E63C0B /* DHMSingleCommandTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMSingleCommandTableViewController.m; sourceTree = "<group>"; };
+		C9456DB018824B13005BEC05 /* DHMAccountSshKeysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAccountSshKeysViewController.h; sourceTree = "<group>"; };
+		C9456DB118824B13005BEC05 /* DHMAccountSshKeysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAccountSshKeysViewController.m; sourceTree = "<group>"; };
+		C945DAE7188D3E1F00F5B0F5 /* DHMListMySqlUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListMySqlUserViewController.h; sourceTree = "<group>"; };
+		C945DAE8188D3E1F00F5B0F5 /* DHMListMySqlUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListMySqlUserViewController.m; sourceTree = "<group>"; };
+		C949EF7C18EAC96800F69D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C94B9223180CDB3B00E11CFE /* DHMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMController.h; sourceTree = "<group>"; };
+		C94B9224180CDB3B00E11CFE /* DHMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMController.m; sourceTree = "<group>"; };
+		C94ECB541831D05600DA5364 /* DHMAddMailFilterCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddMailFilterCommand.h; sourceTree = "<group>"; };
+		C94ECB551831D05600DA5364 /* DHMAddMailFilterCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddMailFilterCommand.m; sourceTree = "<group>"; };
+		C94ECB571831D35B00DA5364 /* DHMRemoveMailFilterCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveMailFilterCommand.h; sourceTree = "<group>"; };
+		C94ECB581831D35B00DA5364 /* DHMRemoveMailFilterCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveMailFilterCommand.m; sourceTree = "<group>"; };
+		C94ECB5A1831D4A400DA5364 /* DHMListMailFiltersCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListMailFiltersCommand.h; sourceTree = "<group>"; };
+		C94ECB5B1831D4A400DA5364 /* DHMListMailFiltersCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListMailFiltersCommand.m; sourceTree = "<group>"; };
+		C94ECB5E1831DE0700DA5364 /* DHMAddRewardPromoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddRewardPromoCommand.h; sourceTree = "<group>"; };
+		C94ECB5F1831DE0700DA5364 /* DHMAddRewardPromoCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddRewardPromoCommand.m; sourceTree = "<group>"; };
+		C94ECB611831DFC400DA5364 /* DHMRemoveRewardPromoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveRewardPromoCommand.h; sourceTree = "<group>"; };
+		C94ECB621831DFC400DA5364 /* DHMRemoveRewardPromoCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveRewardPromoCommand.m; sourceTree = "<group>"; };
+		C94ECB641831E11600DA5364 /* DHMEnableRewardPromoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMEnableRewardPromoCommand.h; sourceTree = "<group>"; };
+		C94ECB651831E11600DA5364 /* DHMEnableRewardPromoCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMEnableRewardPromoCommand.m; sourceTree = "<group>"; };
+		C94ECB671831E1DA00DA5364 /* DHMDisableRewardPromoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMDisableRewardPromoCommand.h; sourceTree = "<group>"; };
+		C94ECB681831E1DB00DA5364 /* DHMDisableRewardPromoCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMDisableRewardPromoCommand.m; sourceTree = "<group>"; };
+		C94ECB6A1831E36700DA5364 /* DHMListRewardPromosCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListRewardPromosCommand.h; sourceTree = "<group>"; };
+		C94ECB6B1831E36700DA5364 /* DHMListRewardPromosCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListRewardPromosCommand.m; sourceTree = "<group>"; };
+		C95332BD1845B06900A29C78 /* DHMCommandCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMCommandCategory.h; sourceTree = "<group>"; };
+		C95332BE1845B06900A29C78 /* DHMCommandCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMCommandCategory.m; sourceTree = "<group>"; };
+		C95D3F3717EA9481007B0D3F /* DHMUserDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMUserDetailViewController.h; sourceTree = "<group>"; };
+		C95D3F3817EA9481007B0D3F /* DHMUserDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMUserDetailViewController.m; sourceTree = "<group>"; };
+		C960C10319A58C23005337E7 /* AssetCatalog.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = AssetCatalog.xcassets; path = Resources/AssetCatalog.xcassets; sourceTree = "<group>"; };
+		C960C10519A59216005337E7 /* DHMMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMMainTabBarViewController.h; sourceTree = "<group>"; };
+		C960C10619A59216005337E7 /* DHMMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMMainTabBarViewController.m; sourceTree = "<group>"; };
+		C96128CE187E43D40043A497 /* DHMCommandTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMCommandTableCell.h; sourceTree = "<group>"; };
+		C96128CF187E43D40043A497 /* DHMCommandTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMCommandTableCell.m; sourceTree = "<group>"; };
+		C966905C17E3F3C60076A71E /* DHBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C966905F17E3F3C60076A71E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C966906117E3F3C60076A71E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C966906317E3F3C60076A71E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C966906717E3F3C60076A71E /* DHBot-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.info; name = "DHBot-Info.plist"; path = "Resources/DHBot-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C966906D17E3F3C60076A71E /* DHBot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DHBot-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		C966906E17E3F3C60076A71E /* DHMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHMAppDelegate.h; sourceTree = "<group>"; };
+		C966906F17E3F3C60076A71E /* DHMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHMAppDelegate.m; sourceTree = "<group>"; };
+		C966907A17E3F3C60076A71E /* DHMUserTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHMUserTableViewController.h; sourceTree = "<group>"; };
+		C966907B17E3F3C60076A71E /* DHMUserTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHMUserTableViewController.m; sourceTree = "<group>"; };
+		C966908317E3F60D0076A71E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		C96730CC1807A4B000B4A528 /* DHMListApiCapabilitiesCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListApiCapabilitiesCommand.h; sourceTree = "<group>"; };
+		C96730CD1807A4B000B4A528 /* DHMListApiCapabilitiesCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListApiCapabilitiesCommand.m; sourceTree = "<group>"; };
+		C96730D21807B96000B4A528 /* DHMApiCommandData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMApiCommandData.h; sourceTree = "<group>"; };
+		C96730D31807B96000B4A528 /* DHMApiCommandData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMApiCommandData.m; sourceTree = "<group>"; };
+		C96730D51807BC9100B4A528 /* DHMAccessibleCommandsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAccessibleCommandsTableViewController.h; sourceTree = "<group>"; };
+		C96730D61807BC9100B4A528 /* DHMAccessibleCommandsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAccessibleCommandsTableViewController.m; sourceTree = "<group>"; };
+		C9677A21186E7A37002F49FA /* DHMAccountSshKeysDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAccountSshKeysDataItem.h; sourceTree = "<group>"; };
+		C9677A22186E7A37002F49FA /* DHMAccountSshKeysDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAccountSshKeysDataItem.m; sourceTree = "<group>"; };
+		C9677A27186E7F00002F49FA /* DHMApiListKeysDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMApiListKeysDataItem.h; sourceTree = "<group>"; };
+		C9677A28186E7F00002F49FA /* DHMApiListKeysDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMApiListKeysDataItem.m; sourceTree = "<group>"; };
+		C9677A2B186E8789002F49FA /* DHMDomainCheckDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMDomainCheckDataItem.h; sourceTree = "<group>"; };
+		C9677A2C186E8789002F49FA /* DHMDomainCheckDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMDomainCheckDataItem.m; sourceTree = "<group>"; };
+		C96CC7FF182C870400B6186C /* DHMListRegistrationsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListRegistrationsCommand.h; sourceTree = "<group>"; };
+		C96CC800182C870400B6186C /* DHMListRegistrationsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListRegistrationsCommand.m; sourceTree = "<group>"; };
+		C96CC805182C880700B6186C /* DHMDomainCheckCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMDomainCheckCommand.h; sourceTree = "<group>"; };
+		C96CC806182C880700B6186C /* DHMDomainCheckCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMDomainCheckCommand.m; sourceTree = "<group>"; };
+		C96CC808182C8C2800B6186C /* DHMAddDnsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddDnsCommand.h; sourceTree = "<group>"; };
+		C96CC809182C8C2800B6186C /* DHMAddDnsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddDnsCommand.m; sourceTree = "<group>"; };
+		C96CC80B182C95E300B6186C /* DHMRemoveDnsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveDnsCommand.h; sourceTree = "<group>"; };
+		C96CC80C182C95E300B6186C /* DHMRemoveDnsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveDnsCommand.m; sourceTree = "<group>"; };
+		C96CC80F182C995A00B6186C /* DHMListMySqlDbCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListMySqlDbCommand.h; sourceTree = "<group>"; };
+		C96CC810182C995A00B6186C /* DHMListMySqlDbCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListMySqlDbCommand.m; sourceTree = "<group>"; };
+		C96CC812182C9BDD00B6186C /* DHMListMySqlHostnamesCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListMySqlHostnamesCommand.h; sourceTree = "<group>"; };
+		C96CC813182C9BDD00B6186C /* DHMListMySqlHostnamesCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListMySqlHostnamesCommand.m; sourceTree = "<group>"; };
+		C96CC815182C9CC600B6186C /* DHMAddMySqlHostnameCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddMySqlHostnameCommand.h; sourceTree = "<group>"; };
+		C96CC816182C9CC600B6186C /* DHMAddMySqlHostnameCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddMySqlHostnameCommand.m; sourceTree = "<group>"; };
+		C96CC818182C9E4F00B6186C /* DHMRemoveMySqlHostnameCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveMySqlHostnameCommand.h; sourceTree = "<group>"; };
+		C96CC819182C9E4F00B6186C /* DHMRemoveMySqlHostnameCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveMySqlHostnameCommand.m; sourceTree = "<group>"; };
+		C96E647E183475870018D1F6 /* DHMRebootPsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRebootPsCommand.h; sourceTree = "<group>"; };
+		C96E647F183475870018D1F6 /* DHMRebootPsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRebootPsCommand.m; sourceTree = "<group>"; };
+		C96E6484183478190018D1F6 /* DHMAddPsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddPsCommand.h; sourceTree = "<group>"; };
+		C96E6485183478190018D1F6 /* DHMAddPsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddPsCommand.m; sourceTree = "<group>"; };
+		C96E648718347BED0018D1F6 /* DHMRemovePsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemovePsCommand.h; sourceTree = "<group>"; };
+		C96E648818347BED0018D1F6 /* DHMRemovePsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemovePsCommand.m; sourceTree = "<group>"; };
+		C96E648A18347D9D0018D1F6 /* DHMListPendingPsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListPendingPsCommand.h; sourceTree = "<group>"; };
+		C96E648B18347D9D0018D1F6 /* DHMListPendingPsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListPendingPsCommand.m; sourceTree = "<group>"; };
+		C96E648D18347E780018D1F6 /* DHMRemovePendingPsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemovePendingPsCommand.h; sourceTree = "<group>"; };
+		C96E648E18347E780018D1F6 /* DHMRemovePendingPsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemovePendingPsCommand.m; sourceTree = "<group>"; };
+		C96E64901834830E0018D1F6 /* DHMListSettingsPsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListSettingsPsCommand.h; sourceTree = "<group>"; };
+		C96E64911834830F0018D1F6 /* DHMListSettingsPsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListSettingsPsCommand.m; sourceTree = "<group>"; };
+		C96E6493183485F10018D1F6 /* DHMUpdateSettingsPsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMUpdateSettingsPsCommand.h; sourceTree = "<group>"; };
+		C96E6494183485F20018D1F6 /* DHMUpdateSettingsPsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMUpdateSettingsPsCommand.m; sourceTree = "<group>"; };
+		C96E649618348A530018D1F6 /* DHMListSizeHistoryPsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListSizeHistoryPsCommand.h; sourceTree = "<group>"; };
+		C96E649718348A540018D1F6 /* DHMListSizeHistoryPsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListSizeHistoryPsCommand.m; sourceTree = "<group>"; };
+		C96E649918348C170018D1F6 /* DHMSetSizePsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMSetSizePsCommand.h; sourceTree = "<group>"; };
+		C96E649A18348C180018D1F6 /* DHMSetSizePsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMSetSizePsCommand.m; sourceTree = "<group>"; };
+		C96E649C18348DDF0018D1F6 /* DHMListRebootHistoryPsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListRebootHistoryPsCommand.h; sourceTree = "<group>"; };
+		C96E649D18348DE00018D1F6 /* DHMListRebootHistoryPsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListRebootHistoryPsCommand.m; sourceTree = "<group>"; };
+		C96E649F18348ED60018D1F6 /* DHMListImagesPsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListImagesPsCommand.h; sourceTree = "<group>"; };
+		C96E64A018348ED70018D1F6 /* DHMListImagesPsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListImagesPsCommand.m; sourceTree = "<group>"; };
+		C96EBD9D1835CC2F00ABA5D0 /* DHMListAnnounceListsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListAnnounceListsCommand.h; sourceTree = "<group>"; };
+		C96EBD9E1835CC2F00ABA5D0 /* DHMListAnnounceListsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListAnnounceListsCommand.m; sourceTree = "<group>"; };
+		C96EBDA01835CC8900ABA5D0 /* DHMListAnnounceSubscribersCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListAnnounceSubscribersCommand.h; sourceTree = "<group>"; };
+		C96EBDA11835CC8900ABA5D0 /* DHMListAnnounceSubscribersCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListAnnounceSubscribersCommand.m; sourceTree = "<group>"; };
+		C96EBDA31835CCA500ABA5D0 /* DHMAddAnnounceSubscriberCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddAnnounceSubscriberCommand.h; sourceTree = "<group>"; };
+		C96EBDA41835CCA500ABA5D0 /* DHMAddAnnounceSubscriberCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddAnnounceSubscriberCommand.m; sourceTree = "<group>"; };
+		C96EBDA61835CCFD00ABA5D0 /* DHMRemoveAnnounceSubscriberCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveAnnounceSubscriberCommand.h; sourceTree = "<group>"; };
+		C96EBDA71835CCFD00ABA5D0 /* DHMRemoveAnnounceSubscriberCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveAnnounceSubscriberCommand.m; sourceTree = "<group>"; };
+		C96EBDA91835CD4900ABA5D0 /* DHMPostAnnounceCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMPostAnnounceCommand.h; sourceTree = "<group>"; };
+		C96EBDAA1835CD4900ABA5D0 /* DHMPostAnnounceCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMPostAnnounceCommand.m; sourceTree = "<group>"; };
+		C971574817F52BB1003103DA /* DHMBaseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMBaseCommand.h; sourceTree = "<group>"; };
+		C971574917F52BB1003103DA /* DHMBaseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMBaseCommand.m; sourceTree = "<group>"; };
+		C972995518370D7700BEA45E /* DHMServiceProgressCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMServiceProgressCommand.h; sourceTree = "<group>"; };
+		C972995618370D7700BEA45E /* DHMServiceProgressCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMServiceProgressCommand.m; sourceTree = "<group>"; };
+		C972F1F41808EE57004F36D6 /* DHMKeyListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMKeyListTableViewController.h; sourceTree = "<group>"; };
+		C972F1F51808EE57004F36D6 /* DHMKeyListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMKeyListTableViewController.m; sourceTree = "<group>"; };
+		C972F1FA1808F65D004F36D6 /* DHMKeyListNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMKeyListNavViewController.h; sourceTree = "<group>"; };
+		C972F1FB1808F65D004F36D6 /* DHMKeyListNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMKeyListNavViewController.m; sourceTree = "<group>"; };
+		C978264317E6AED9005867D2 /* DHMListUserDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListUserDataItem.h; sourceTree = "<group>"; };
+		C978264417E6AED9005867D2 /* DHMListUserDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListUserDataItem.m; sourceTree = "<group>"; };
+		C97C6DFF1818A80D0031F4EF /* DHMListApiKeysCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListApiKeysCommand.h; sourceTree = "<group>"; };
+		C97C6E001818A80D0031F4EF /* DHMListApiKeysCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListApiKeysCommand.m; sourceTree = "<group>"; };
+		C97C6E061818B63F0031F4EF /* DHMListDnsRecordsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListDnsRecordsCommand.h; sourceTree = "<group>"; };
+		C97C6E071818B63F0031F4EF /* DHMListDnsRecordsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListDnsRecordsCommand.m; sourceTree = "<group>"; };
+		C97C6E0A1818B6880031F4EF /* DHMListDomainsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListDomainsCommand.h; sourceTree = "<group>"; };
+		C97C6E0B1818B6880031F4EF /* DHMListDomainsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListDomainsCommand.m; sourceTree = "<group>"; };
+		C97C6E0E1818BC7F0031F4EF /* DHMListPsUsageCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListPsUsageCommand.h; sourceTree = "<group>"; };
+		C97C6E0F1818BC7F0031F4EF /* DHMListPsUsageCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListPsUsageCommand.m; sourceTree = "<group>"; };
+		C97C6E111818BFF40031F4EF /* DHMListPsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListPsCommand.h; sourceTree = "<group>"; };
+		C97C6E121818BFF40031F4EF /* DHMListPsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListPsCommand.m; sourceTree = "<group>"; };
+		C980C9F61809C0CF00A68617 /* DHMApiCommands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHMApiCommands.h; sourceTree = "<group>"; };
+		C980C9F81809C84700A68617 /* DHMApiKeyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMApiKeyModel.h; sourceTree = "<group>"; };
+		C980C9F91809C84700A68617 /* DHMApiKeyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMApiKeyModel.m; sourceTree = "<group>"; };
+		C982187F1829E6D200258FA3 /* DHMAccountDomainUsageCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAccountDomainUsageCommand.h; sourceTree = "<group>"; };
+		C98218801829E6D200258FA3 /* DHMAccountDomainUsageCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAccountDomainUsageCommand.m; sourceTree = "<group>"; };
+		C98218851829E9B500258FA3 /* DHMAccountStatusCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAccountStatusCommand.h; sourceTree = "<group>"; };
+		C98218861829E9B500258FA3 /* DHMAccountStatusCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAccountStatusCommand.m; sourceTree = "<group>"; };
+		C98218881829EB4000258FA3 /* DHMAccountUserUsageCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAccountUserUsageCommand.h; sourceTree = "<group>"; };
+		C98218891829EB4000258FA3 /* DHMAccountUserUsageCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAccountUserUsageCommand.m; sourceTree = "<group>"; };
+		C982188B1829ECF900258FA3 /* DHMAccountSshKeysCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAccountSshKeysCommand.h; sourceTree = "<group>"; };
+		C982188C1829ECF900258FA3 /* DHMAccountSshKeysCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAccountSshKeysCommand.m; sourceTree = "<group>"; };
+		C982188E1829EF1A00258FA3 /* DHMAddUserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddUserCommand.h; sourceTree = "<group>"; };
+		C982188F1829EF1A00258FA3 /* DHMAddUserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddUserCommand.m; sourceTree = "<group>"; };
+		C98218911829F06D00258FA3 /* DHMRemoveUserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveUserCommand.h; sourceTree = "<group>"; };
+		C98218921829F06D00258FA3 /* DHMRemoveUserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveUserCommand.m; sourceTree = "<group>"; };
+		C9859C78199862FF0068548E /* DHMListJabberUsersCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListJabberUsersCommand.h; sourceTree = "<group>"; };
+		C9859C79199862FF0068548E /* DHMListJabberUsersCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListJabberUsersCommand.m; sourceTree = "<group>"; };
+		C9859C7B199864C90068548E /* DHMListJabberUsersDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListJabberUsersDataItem.h; sourceTree = "<group>"; };
+		C9859C7C199864C90068548E /* DHMListJabberUsersDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListJabberUsersDataItem.m; sourceTree = "<group>"; };
+		C98C2BE0183035A300543390 /* DHMAddMySqlUserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAddMySqlUserCommand.h; sourceTree = "<group>"; };
+		C98C2BE1183035A300543390 /* DHMAddMySqlUserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAddMySqlUserCommand.m; sourceTree = "<group>"; };
+		C98C2BE7183041CC00543390 /* DHMRemoveMySqlUserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRemoveMySqlUserCommand.h; sourceTree = "<group>"; };
+		C98C2BE8183041CC00543390 /* DHMRemoveMySqlUserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRemoveMySqlUserCommand.m; sourceTree = "<group>"; };
+		C98C2BED1830472500543390 /* DHMListMySqlUsersCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListMySqlUsersCommand.h; sourceTree = "<group>"; };
+		C98C2BEE1830472500543390 /* DHMListMySqlUsersCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListMySqlUsersCommand.m; sourceTree = "<group>"; };
+		C98DA2FE19A1A19300ECD8BC /* DHMOnboardingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMOnboardingSegue.h; sourceTree = "<group>"; };
+		C98DA2FF19A1A19300ECD8BC /* DHMOnboardingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMOnboardingSegue.m; sourceTree = "<group>"; };
+		C98DFE5C1804E1C50074C90F /* DHMBaseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMBaseData.h; sourceTree = "<group>"; };
+		C98DFE5D1804E1C50074C90F /* DHMBaseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMBaseData.m; sourceTree = "<group>"; };
+		C998D49F17EE29100071B4F2 /* DHMPagedOnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMPagedOnboardingViewController.h; sourceTree = "<group>"; };
+		C998D4A017EE29100071B4F2 /* DHMPagedOnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMPagedOnboardingViewController.m; sourceTree = "<group>"; };
+		C998D4A517EE95C00071B4F2 /* DHMApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMApi.h; sourceTree = "<group>"; };
+		C998D4A617EE95C00071B4F2 /* DHMApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMApi.m; sourceTree = "<group>"; };
+		C999B7E218331C78004D3C63 /* DHMListRewardPromoDetailCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListRewardPromoDetailCommand.h; sourceTree = "<group>"; };
+		C999B7E318331C78004D3C63 /* DHMListRewardPromoDetailCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListRewardPromoDetailCommand.m; sourceTree = "<group>"; };
+		C999B7E818332024004D3C63 /* DHMListRewardReferralsPromoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListRewardReferralsPromoCommand.h; sourceTree = "<group>"; };
+		C999B7E918332024004D3C63 /* DHMListRewardReferralsPromoCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListRewardReferralsPromoCommand.m; sourceTree = "<group>"; };
+		C99A44AE17E3FC0E00AE7CDB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C99A44AF17E3FC0E00AE7CDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C99A44B017E3FC0E00AE7CDB /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		C99A44B117E3FC0E00AE7CDB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C99A44B217E3FC0E00AE7CDB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C99A44B317E3FC0E00AE7CDB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C99A44B417E3FC0E00AE7CDB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C9A1F8EB19A0FE5C00ACD6B4 /* EAIntroPage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EAIntroPage+Extensions.h"; sourceTree = "<group>"; };
+		C9A1F8EC19A0FE5C00ACD6B4 /* EAIntroPage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EAIntroPage+Extensions.m"; sourceTree = "<group>"; };
+		C9ABB79B180E2E60004F6F1E /* DHMKeyListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMKeyListDetailViewController.h; sourceTree = "<group>"; };
+		C9ABB79C180E2E60004F6F1E /* DHMKeyListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMKeyListDetailViewController.m; sourceTree = "<group>"; };
+		C9B87D351A64C5120010BF54 /* DHMServiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMServiceTableViewController.h; sourceTree = "<group>"; };
+		C9B87D361A64C5120010BF54 /* DHMServiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMServiceTableViewController.m; sourceTree = "<group>"; };
+		C9C8E7861A6753DA00A3C631 /* DHMApiKeyServiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMApiKeyServiceModel.m; sourceTree = "<group>"; };
+		C9C8E7881A6753F300A3C631 /* DHMApiKeyServiceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHMApiKeyServiceModel.h; sourceTree = "<group>"; };
+		C9C8E7891A6784E800A3C631 /* DHMRebootPsDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMRebootPsDataItem.h; sourceTree = "<group>"; };
+		C9C8E78A1A6784E800A3C631 /* DHMRebootPsDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMRebootPsDataItem.m; sourceTree = "<group>"; };
+		C9CFC0C01A087C7800CEA5A5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9D4B82E1999A24000050F40 /* DHMListJabberUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListJabberUsersViewController.h; sourceTree = "<group>"; };
+		C9D4B82F1999A24000050F40 /* DHMListJabberUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListJabberUsersViewController.m; sourceTree = "<group>"; };
+		C9F704E2188182C8009FAC09 /* DHMUserUsageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMUserUsageViewController.h; sourceTree = "<group>"; };
+		C9F704E3188182C8009FAC09 /* DHMUserUsageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMUserUsageViewController.m; sourceTree = "<group>"; };
+		C9F8B5BF1872514D00DC1313 /* DHMListDomainsDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListDomainsDataItem.h; sourceTree = "<group>"; };
+		C9F8B5C01872514D00DC1313 /* DHMListDomainsDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListDomainsDataItem.m; sourceTree = "<group>"; };
+		C9F8B5C5187270FD00DC1313 /* DHMListRegistrationsDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMListRegistrationsDataItem.h; sourceTree = "<group>"; };
+		C9F8B5C6187270FD00DC1313 /* DHMListRegistrationsDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMListRegistrationsDataItem.m; sourceTree = "<group>"; };
+		C9FAB91219A9072C005B4273 /* DHMPointsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMPointsTableViewController.h; sourceTree = "<group>"; };
+		C9FAB91319A9072C005B4273 /* DHMPointsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMPointsTableViewController.m; sourceTree = "<group>"; };
+		C9FAB91519A92D4D005B4273 /* DHMPointsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMPointsTableCell.h; sourceTree = "<group>"; };
+		C9FAB91619A92D4D005B4273 /* DHMPointsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMPointsTableCell.m; sourceTree = "<group>"; };
+		C9FE8707186DC1C500275D79 /* DHMAccountStatusDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAccountStatusDataItem.h; sourceTree = "<group>"; };
+		C9FE8708186DC1C500275D79 /* DHMAccountStatusDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAccountStatusDataItem.m; sourceTree = "<group>"; };
+		C9FE8709186DC1C500275D79 /* DHMAccountUsageDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAccountUsageDataItem.h; sourceTree = "<group>"; };
+		C9FE870A186DC1C500275D79 /* DHMAccountUsageDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAccountUsageDataItem.m; sourceTree = "<group>"; };
+		C9FE8710186DC1F500275D79 /* DHMAccountUserUsageDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMAccountUserUsageDataItem.h; sourceTree = "<group>"; };
+		C9FE8711186DC1F500275D79 /* DHMAccountUserUsageDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMAccountUserUsageDataItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C966905917E3F3C60076A71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E987871A89BDFA0078EC38 /* iAd.framework in Frameworks */,
+				C99A44BA17E3FC0E00AE7CDB /* Security.framework in Frameworks */,
+				C99A44B517E3FC0E00AE7CDB /* CFNetwork.framework in Frameworks */,
+				C99A44B617E3FC0E00AE7CDB /* CoreData.framework in Frameworks */,
+				C99A44B717E3FC0E00AE7CDB /* libxml2.dylib in Frameworks */,
+				C99A44B817E3FC0E00AE7CDB /* MobileCoreServices.framework in Frameworks */,
+				C99A44B917E3FC0E00AE7CDB /* QuartzCore.framework in Frameworks */,
+				C99A44BB17E3FC0E00AE7CDB /* SystemConfiguration.framework in Frameworks */,
+				C966906017E3F3C60076A71E /* UIKit.framework in Frameworks */,
+				C966906217E3F3C60076A71E /* Foundation.framework in Frameworks */,
+				C966906417E3F3C60076A71E /* CoreGraphics.framework in Frameworks */,
+				335E6F68E57442658DDF5119 /* libPods-DHBot.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A62725BC07CBCE254226F82D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				470BD7481E51A9D2D27C1F79 /* Pods-DHBot.debug.xcconfig */,
+				81B8AFD5C6AF5205BECCEC45 /* Pods-DHBot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C90B3F9D17F3DAD100332975 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C971575017F52C26003103DA /* Models */,
+				C971574F17F52BE4003103DA /* Commands */,
+				C998D4A517EE95C00071B4F2 /* DHMApi.h */,
+				C998D4A617EE95C00071B4F2 /* DHMApi.m */,
+				C980C9F61809C0CF00A68617 /* DHMApiCommands.h */,
+			);
+			name = API;
+			path = Classes/API;
+			sourceTree = SOURCE_ROOT;
+		};
+		C90B3FA217F3EA3F00332975 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3FA417F3EB0100332975 /* DHMListUsersCommand.h */,
+				C90B3FA517F3EB0100332975 /* DHMListUsersCommand.m */,
+				C982188E1829EF1A00258FA3 /* DHMAddUserCommand.h */,
+				C982188F1829EF1A00258FA3 /* DHMAddUserCommand.m */,
+				C98218911829F06D00258FA3 /* DHMRemoveUserCommand.h */,
+				C98218921829F06D00258FA3 /* DHMRemoveUserCommand.m */,
+			);
+			name = User;
+			path = Classes/API/Commands/User;
+			sourceTree = SOURCE_ROOT;
+		};
+		C91AE73B18777EC5001BF45F /* ZAActivityBar */ = {
+			isa = PBXGroup;
+			children = (
+				C91AE73C18777EC5001BF45F /* ZAActivityBar.h */,
+				C91AE73D18777EC5001BF45F /* ZAActivityBar.m */,
+			);
+			name = ZAActivityBar;
+			path = External/ZAActivityBar;
+			sourceTree = "<group>";
+		};
+		C91AE74218778351001BF45F /* SKBounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C91AE74318778351001BF45F /* SKBounceAnimation.h */,
+				C91AE74418778351001BF45F /* SKBounceAnimation.m */,
+			);
+			name = SKBounceAnimation;
+			path = External/SKBounceAnimation;
+			sourceTree = "<group>";
+		};
+		C92B4DC01874991200E554AC /* DNS */ = {
+			isa = PBXGroup;
+			children = (
+				C92B4DC41874994800E554AC /* DHMListDnsRecordsDataItem.h */,
+				C92B4DC51874994800E554AC /* DHMListDnsRecordsDataItem.m */,
+				C924221A18E82AE0009732DB /* DHMAddDnsDataItem.h */,
+				C924221B18E82AE0009732DB /* DHMAddDnsDataItem.m */,
+				C924221D18E82AF0009732DB /* DHMRemoveDnsDataItem.h */,
+				C924221E18E82AF0009732DB /* DHMRemoveDnsDataItem.m */,
+			);
+			name = DNS;
+			path = Classes/API/Models/DNS;
+			sourceTree = SOURCE_ROOT;
+		};
+		C935E03A1874F8EC007037FB /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				C935E04A1874FF68007037FB /* DHMAccountUsageViewController.h */,
+				C935E04B1874FF68007037FB /* DHMAccountUsageViewController.m */,
+				C9F704E2188182C8009FAC09 /* DHMUserUsageViewController.h */,
+				C9F704E3188182C8009FAC09 /* DHMUserUsageViewController.m */,
+				C9456DB018824B13005BEC05 /* DHMAccountSshKeysViewController.h */,
+				C9456DB118824B13005BEC05 /* DHMAccountSshKeysViewController.m */,
+				C90D9FEF1883892300F453AF /* DHMAccountStatusViewController.h */,
+				C90D9FF01883892300F453AF /* DHMAccountStatusViewController.m */,
+			);
+			name = Account;
+			path = Classes/Views/Account;
+			sourceTree = SOURCE_ROOT;
+		};
+		C935E03B1874F8EC007037FB /* Announcement */ = {
+			isa = PBXGroup;
+			children = (
+				C92B4D78188E865100AF1984 /* DHMListAnnounceListsViewController.h */,
+				C92B4D79188E865100AF1984 /* DHMListAnnounceListsViewController.m */,
+			);
+			name = Announcement;
+			path = Classes/Views/Announcement;
+			sourceTree = SOURCE_ROOT;
+		};
+		C935E03C1874F8EC007037FB /* DNS */ = {
+			isa = PBXGroup;
+			children = (
+				C92B4D7E188E8F7000AF1984 /* DHMListDnsRecordsViewController.h */,
+				C92B4D7F188E8F7000AF1984 /* DHMListDnsRecordsViewController.m */,
+			);
+			name = DNS;
+			path = Classes/Views/DNS;
+			sourceTree = SOURCE_ROOT;
+		};
+		C935E03D1874F8EC007037FB /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				C9068F5C1898B8D6009BEDDF /* DHMListDomainsViewController.h */,
+				C9068F5D1898B8D6009BEDDF /* DHMListDomainsViewController.m */,
+				C91D1CCF1899F0A10091FE86 /* DHMListRegistrationsViewController.h */,
+				C91D1CD01899F0A10091FE86 /* DHMListRegistrationsViewController.m */,
+				C924CDEC19EDF0500081752C /* DHMListRegistrationsDetailViewController.h */,
+				C924CDED19EDF0500081752C /* DHMListRegistrationsDetailViewController.m */,
+				C911A483189CB9EF00543574 /* DHMDomainCheckViewController.h */,
+				C911A484189CB9EF00543574 /* DHMDomainCheckViewController.m */,
+			);
+			name = Domains;
+			path = Classes/Views/Domains;
+			sourceTree = SOURCE_ROOT;
+		};
+		C935E03E1874F8EC007037FB /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				C901823818912A19001331FC /* DHMListMailFiltersViewController.h */,
+				C901823918912A19001331FC /* DHMListMailFiltersViewController.m */,
+			);
+			name = Mail;
+			path = Classes/Views/Mail;
+			sourceTree = SOURCE_ROOT;
+		};
+		C935E03F1874F8EC007037FB /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				C925FE1C188A8E9E004F2FCE /* DHMListMySqlDbViewController.h */,
+				C925FE1D188A8E9F004F2FCE /* DHMListMySqlDbViewController.m */,
+				C925FE22188A9DD8004F2FCE /* DHMListMySqlHostnameViewController.h */,
+				C925FE23188A9DD8004F2FCE /* DHMListMySqlHostnameViewController.m */,
+				C945DAE7188D3E1F00F5B0F5 /* DHMListMySqlUserViewController.h */,
+				C945DAE8188D3E1F00F5B0F5 /* DHMListMySqlUserViewController.m */,
+			);
+			name = MySQL;
+			path = Classes/Views/MySQL;
+			sourceTree = SOURCE_ROOT;
+		};
+		C935E0401874F8EC007037FB /* PrivateServer */ = {
+			isa = PBXGroup;
+			children = (
+				C9363258188A221C00BD2988 /* DHMListPsViewController.h */,
+				C9363259188A221C00BD2988 /* DHMListPsViewController.m */,
+				C9242E751A008C2C00E0B643 /* DHMListPsDetailViewController.h */,
+				C9242E761A008C2C00E0B643 /* DHMListPsDetailViewController.m */,
+			);
+			name = PrivateServer;
+			path = Classes/Views/PrivateServer;
+			sourceTree = SOURCE_ROOT;
+		};
+		C935E0411874F8EC007037FB /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Rewards;
+			path = Classes/Views/Rewards;
+			sourceTree = SOURCE_ROOT;
+		};
+		C935E0451874F9C6007037FB /* Announcement */ = {
+			isa = PBXGroup;
+			children = (
+				C93204201884EC0700DD1B68 /* DHMListAnnounceListsDataItem.h */,
+				C93204211884EC0700DD1B68 /* DHMListAnnounceListsDataItem.m */,
+				C934498B18E6D48F00EDE5C4 /* DHMListAnnounceSubscribersDataItem.h */,
+				C934498C18E6D48F00EDE5C4 /* DHMListAnnounceSubscribersDataItem.m */,
+				C934499118E6D8E400EDE5C4 /* DHMAddAnnounceSubscrberDataItem.h */,
+				C934499218E6D8E400EDE5C4 /* DHMAddAnnounceSubscrberDataItem.m */,
+				C934499418E6E01E00EDE5C4 /* DHMRemoveAnnounceSubscriberDataItem.h */,
+				C934499518E6E01E00EDE5C4 /* DHMRemoveAnnounceSubscriberDataItem.m */,
+				C934499718E6E0F700EDE5C4 /* DHMPostAnnounceDataItem.h */,
+				C934499818E6E0F700EDE5C4 /* DHMPostAnnounceDataItem.m */,
+			);
+			path = Announcement;
+			sourceTree = "<group>";
+		};
+		C935E0461874F9C6007037FB /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				C932041D1884E5D100DD1B68 /* DHMListMailFiltersDataItem.h */,
+				C932041E1884E5D100DD1B68 /* DHMListMailFiltersDataItem.m */,
+				C924221118E82830009732DB /* DHMAddMailFilterDataItem.h */,
+				C924221218E82830009732DB /* DHMAddMailFilterDataItem.m */,
+				C924221718E8284F009732DB /* DHMRemoveMailFilterDataItem.h */,
+				C924221818E8284F009732DB /* DHMRemoveMailFilterDataItem.m */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+		C935E0471874F9C6007037FB /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				C93204111884D74B00DD1B68 /* DHMListMySqlDbDataItem.h */,
+				C93204121884D74B00DD1B68 /* DHMListMySqlDbDataItem.m */,
+				C93204171884D95300DD1B68 /* DHMListMySqlHostnameDataItem.h */,
+				C93204181884D95300DD1B68 /* DHMListMySqlHostnameDataItem.m */,
+				C932041A1884DBC500DD1B68 /* DHMListMySqlUsersDataItem.h */,
+				C932041B1884DBC500DD1B68 /* DHMListMySqlUsersDataItem.m */,
+				C924222018E83550009732DB /* DHMAddMySqlHostnameDataItem.h */,
+				C924222118E83550009732DB /* DHMAddMySqlHostnameDataItem.m */,
+				C924222318E83573009732DB /* DHMRemoveMySqlHostnameDataItem.h */,
+				C924222418E83573009732DB /* DHMRemoveMySqlHostnameDataItem.m */,
+				C924222618E83596009732DB /* DHMAddMySqlUserDataItem.h */,
+				C924222718E83596009732DB /* DHMAddMySqlUserDataItem.m */,
+				C924222918E835B4009732DB /* DHMRemoveMySqlUserDataItem.h */,
+				C924222A18E835B4009732DB /* DHMRemoveMySqlUserDataItem.m */,
+			);
+			path = MySQL;
+			sourceTree = "<group>";
+		};
+		C935E0481874F9C6007037FB /* PrivateServer */ = {
+			isa = PBXGroup;
+			children = (
+				C9363252188A1C6400BD2988 /* DHMListPsDataItem.h */,
+				C9363253188A1C6400BD2988 /* DHMListPsDataItem.m */,
+				C9068F561898B450009BEDDF /* DHMListPsImagesDataItem.h */,
+				C9068F571898B450009BEDDF /* DHMListPsImagesDataItem.m */,
+				C9C8E7891A6784E800A3C631 /* DHMRebootPsDataItem.h */,
+				C9C8E78A1A6784E800A3C631 /* DHMRebootPsDataItem.m */,
+			);
+			path = PrivateServer;
+			sourceTree = "<group>";
+		};
+		C935E0491874F9C6007037FB /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		C94B88F71806302600A989BF /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C978264317E6AED9005867D2 /* DHMListUserDataItem.h */,
+				C978264417E6AED9005867D2 /* DHMListUserDataItem.m */,
+				C922BDE118AB2EDC0009862E /* DHMAddUserDataItem.h */,
+				C922BDE218AB2EDC0009862E /* DHMAddUserDataItem.m */,
+				C930229618B3738C007A527D /* DHMRemoveUserDataItem.h */,
+				C930229718B3738C007A527D /* DHMRemoveUserDataItem.m */,
+			);
+			name = User;
+			path = Classes/API/Models/User;
+			sourceTree = SOURCE_ROOT;
+		};
+		C94B88FB1806304F00A989BF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C98DFE5C1804E1C50074C90F /* DHMBaseData.h */,
+				C98DFE5D1804E1C50074C90F /* DHMBaseData.m */,
+				C9149BEC17FFC0EB00C2BBA5 /* DHMErrorData.h */,
+				C9149BED17FFC0EB00C2BBA5 /* DHMErrorData.m */,
+			);
+			name = Base;
+			path = Classes/API/Models/Base;
+			sourceTree = SOURCE_ROOT;
+		};
+		C94ECB501831CFBA00DA5364 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				C94ECB541831D05600DA5364 /* DHMAddMailFilterCommand.h */,
+				C94ECB551831D05600DA5364 /* DHMAddMailFilterCommand.m */,
+				C94ECB571831D35B00DA5364 /* DHMRemoveMailFilterCommand.h */,
+				C94ECB581831D35B00DA5364 /* DHMRemoveMailFilterCommand.m */,
+				C94ECB5A1831D4A400DA5364 /* DHMListMailFiltersCommand.h */,
+				C94ECB5B1831D4A400DA5364 /* DHMListMailFiltersCommand.m */,
+			);
+			name = Mail;
+			path = Classes/API/Commands/Mail;
+			sourceTree = SOURCE_ROOT;
+		};
+		C94ECB5D1831DDA200DA5364 /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				C94ECB5E1831DE0700DA5364 /* DHMAddRewardPromoCommand.h */,
+				C94ECB5F1831DE0700DA5364 /* DHMAddRewardPromoCommand.m */,
+				C94ECB611831DFC400DA5364 /* DHMRemoveRewardPromoCommand.h */,
+				C94ECB621831DFC400DA5364 /* DHMRemoveRewardPromoCommand.m */,
+				C94ECB641831E11600DA5364 /* DHMEnableRewardPromoCommand.h */,
+				C94ECB651831E11600DA5364 /* DHMEnableRewardPromoCommand.m */,
+				C94ECB671831E1DA00DA5364 /* DHMDisableRewardPromoCommand.h */,
+				C94ECB681831E1DB00DA5364 /* DHMDisableRewardPromoCommand.m */,
+				C94ECB6A1831E36700DA5364 /* DHMListRewardPromosCommand.h */,
+				C94ECB6B1831E36700DA5364 /* DHMListRewardPromosCommand.m */,
+				C999B7E218331C78004D3C63 /* DHMListRewardPromoDetailCommand.h */,
+				C999B7E318331C78004D3C63 /* DHMListRewardPromoDetailCommand.m */,
+				C999B7E818332024004D3C63 /* DHMListRewardReferralsPromoCommand.h */,
+				C999B7E918332024004D3C63 /* DHMListRewardReferralsPromoCommand.m */,
+				C91816F718332E11009A8DC7 /* DHMListRewardReferralSummaryCommand.h */,
+				C91816F818332E11009A8DC7 /* DHMListRewardReferralSummaryCommand.m */,
+			);
+			name = Rewards;
+			path = Classes/API/Commands/Rewards;
+			sourceTree = SOURCE_ROOT;
+		};
+		C966905317E3F3C60076A71E = {
+			isa = PBXGroup;
+			children = (
+				C8F5F7D21A92E67800C6482F /* Settings.bundle */,
+				C960C10319A58C23005337E7 /* AssetCatalog.xcassets */,
+				C949EF7B18EAC96800F69D69 /* MainStoryboard.storyboard */,
+				C92A122318EAD7EF00457160 /* Localizable.strings */,
+				C966908217E3F4120076A71E /* Classes */,
+				C966906617E3F3C60076A71E /* Supporting Files */,
+				C98E36A617EF597900056DCE /* External */,
+				C966905E17E3F3C60076A71E /* Frameworks */,
+				C966905D17E3F3C60076A71E /* Products */,
+				A62725BC07CBCE254226F82D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C966905D17E3F3C60076A71E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C966905C17E3F3C60076A71E /* DHBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C966905E17E3F3C60076A71E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8E987861A89BDFA0078EC38 /* iAd.framework */,
+				C99A44B017E3FC0E00AE7CDB /* libxml2.dylib */,
+				C99A44AE17E3FC0E00AE7CDB /* CFNetwork.framework */,
+				C99A44AF17E3FC0E00AE7CDB /* CoreData.framework */,
+				C99A44B117E3FC0E00AE7CDB /* MobileCoreServices.framework */,
+				C99A44B217E3FC0E00AE7CDB /* QuartzCore.framework */,
+				C99A44B317E3FC0E00AE7CDB /* Security.framework */,
+				C99A44B417E3FC0E00AE7CDB /* SystemConfiguration.framework */,
+				C966905F17E3F3C60076A71E /* UIKit.framework */,
+				C966906117E3F3C60076A71E /* Foundation.framework */,
+				C966906317E3F3C60076A71E /* CoreGraphics.framework */,
+				678D8DE63FFF4A71BCECA721 /* libPods-DHBot.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C966906617E3F3C60076A71E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9CFC0C01A087C7800CEA5A5 /* Podfile */,
+				C966908317E3F60D0076A71E /* main.m */,
+				C966906717E3F3C60076A71E /* DHBot-Info.plist */,
+				C966906D17E3F3C60076A71E /* DHBot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = DHMan;
+			sourceTree = "<group>";
+		};
+		C966908217E3F4120076A71E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3F9D17F3DAD100332975 /* API */,
+				C9A1F8E719A0FDD700ACD6B4 /* Extensions */,
+				C980C9F71809C7F200A68617 /* Models */,
+				C9A551CD17FA60C5005BBB63 /* Views */,
+				C966906E17E3F3C60076A71E /* DHMAppDelegate.h */,
+				C966906F17E3F3C60076A71E /* DHMAppDelegate.m */,
+				C94B9223180CDB3B00E11CFE /* DHMController.h */,
+				C94B9224180CDB3B00E11CFE /* DHMController.m */,
+				C9146B7D19BE95A7004C671D /* DHMStoreHelper.h */,
+				C9146B7E19BE95A7004C671D /* DHMStoreHelper.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		C96730CB1807A30C00B4A528 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C96730CC1807A4B000B4A528 /* DHMListApiCapabilitiesCommand.h */,
+				C96730CD1807A4B000B4A528 /* DHMListApiCapabilitiesCommand.m */,
+				C97C6DFF1818A80D0031F4EF /* DHMListApiKeysCommand.h */,
+				C97C6E001818A80D0031F4EF /* DHMListApiKeysCommand.m */,
+			);
+			name = API;
+			path = Classes/API/Commands/API;
+			sourceTree = SOURCE_ROOT;
+		};
+		C96730D01807B76F00B4A528 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C96730D51807BC9100B4A528 /* DHMAccessibleCommandsTableViewController.h */,
+				C96730D61807BC9100B4A528 /* DHMAccessibleCommandsTableViewController.m */,
+				C911A47D189C90AF00543574 /* DHMAvailableApiCommandsViewController.h */,
+				C911A47E189C90AF00543574 /* DHMAvailableApiCommandsViewController.m */,
+				C922BDDB18AB20370009862E /* DHMListApiKeysViewController.h */,
+				C922BDDC18AB20370009862E /* DHMListApiKeysViewController.m */,
+			);
+			name = API;
+			path = Classes/Views/API;
+			sourceTree = SOURCE_ROOT;
+		};
+		C96730D11807B91000B4A528 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C96730D21807B96000B4A528 /* DHMApiCommandData.h */,
+				C96730D31807B96000B4A528 /* DHMApiCommandData.m */,
+				C9677A27186E7F00002F49FA /* DHMApiListKeysDataItem.h */,
+				C9677A28186E7F00002F49FA /* DHMApiListKeysDataItem.m */,
+			);
+			name = API;
+			path = Classes/API/Models/API;
+			sourceTree = SOURCE_ROOT;
+		};
+		C9677A2A186E8740002F49FA /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				C9677A2B186E8789002F49FA /* DHMDomainCheckDataItem.h */,
+				C9677A2C186E8789002F49FA /* DHMDomainCheckDataItem.m */,
+				C9F8B5BF1872514D00DC1313 /* DHMListDomainsDataItem.h */,
+				C9F8B5C01872514D00DC1313 /* DHMListDomainsDataItem.m */,
+				C9F8B5C5187270FD00DC1313 /* DHMListRegistrationsDataItem.h */,
+				C9F8B5C6187270FD00DC1313 /* DHMListRegistrationsDataItem.m */,
+			);
+			name = Domains;
+			path = Classes/API/Models/Domains;
+			sourceTree = SOURCE_ROOT;
+		};
+		C96CC80E182C98BF00B6186C /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				C96CC80F182C995A00B6186C /* DHMListMySqlDbCommand.h */,
+				C96CC810182C995A00B6186C /* DHMListMySqlDbCommand.m */,
+				C96CC812182C9BDD00B6186C /* DHMListMySqlHostnamesCommand.h */,
+				C96CC813182C9BDD00B6186C /* DHMListMySqlHostnamesCommand.m */,
+				C96CC815182C9CC600B6186C /* DHMAddMySqlHostnameCommand.h */,
+				C96CC816182C9CC600B6186C /* DHMAddMySqlHostnameCommand.m */,
+				C96CC818182C9E4F00B6186C /* DHMRemoveMySqlHostnameCommand.h */,
+				C96CC819182C9E4F00B6186C /* DHMRemoveMySqlHostnameCommand.m */,
+				C98C2BE0183035A300543390 /* DHMAddMySqlUserCommand.h */,
+				C98C2BE1183035A300543390 /* DHMAddMySqlUserCommand.m */,
+				C98C2BE7183041CC00543390 /* DHMRemoveMySqlUserCommand.h */,
+				C98C2BE8183041CC00543390 /* DHMRemoveMySqlUserCommand.m */,
+				C98C2BED1830472500543390 /* DHMListMySqlUsersCommand.h */,
+				C98C2BEE1830472500543390 /* DHMListMySqlUsersCommand.m */,
+			);
+			name = MySQL;
+			path = Classes/API/Commands/MySQL;
+			sourceTree = SOURCE_ROOT;
+		};
+		C96EBD991835CA3E00ABA5D0 /* Announcement */ = {
+			isa = PBXGroup;
+			children = (
+				C96EBD9D1835CC2F00ABA5D0 /* DHMListAnnounceListsCommand.h */,
+				C96EBD9E1835CC2F00ABA5D0 /* DHMListAnnounceListsCommand.m */,
+				C96EBDA01835CC8900ABA5D0 /* DHMListAnnounceSubscribersCommand.h */,
+				C96EBDA11835CC8900ABA5D0 /* DHMListAnnounceSubscribersCommand.m */,
+				C96EBDA31835CCA500ABA5D0 /* DHMAddAnnounceSubscriberCommand.h */,
+				C96EBDA41835CCA500ABA5D0 /* DHMAddAnnounceSubscriberCommand.m */,
+				C96EBDA61835CCFD00ABA5D0 /* DHMRemoveAnnounceSubscriberCommand.h */,
+				C96EBDA71835CCFD00ABA5D0 /* DHMRemoveAnnounceSubscriberCommand.m */,
+				C96EBDA91835CD4900ABA5D0 /* DHMPostAnnounceCommand.h */,
+				C96EBDAA1835CD4900ABA5D0 /* DHMPostAnnounceCommand.m */,
+			);
+			name = Announcement;
+			path = Classes/API/Commands/Announcement;
+			sourceTree = SOURCE_ROOT;
+		};
+		C971574E17F52BC2003103DA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3FA117F3E57000332975 /* DHMCommand.h */,
+				C971574817F52BB1003103DA /* DHMBaseCommand.h */,
+				C971574917F52BB1003103DA /* DHMBaseCommand.m */,
+				C95332BD1845B06900A29C78 /* DHMCommandCategory.h */,
+				C95332BE1845B06900A29C78 /* DHMCommandCategory.m */,
+			);
+			name = Base;
+			path = Classes/API/Commands/Base;
+			sourceTree = SOURCE_ROOT;
+		};
+		C971574F17F52BE4003103DA /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				C971574E17F52BC2003103DA /* Base */,
+				C97D30D5181DFBD000D4B640 /* Account */,
+				C96EBD991835CA3E00ABA5D0 /* Announcement */,
+				C96730CB1807A30C00B4A528 /* API */,
+				C97C6E051818B5D80031F4EF /* DNS */,
+				C97C6E091818B6570031F4EF /* Domains */,
+				C9859C771998617E0068548E /* Jabber */,
+				C94ECB501831CFBA00DA5364 /* Mail */,
+				C96CC80E182C98BF00B6186C /* MySQL */,
+				C97C6E0D1818BC3A0031F4EF /* PrivateServer */,
+				C94ECB5D1831DDA200DA5364 /* Rewards */,
+				C972995418370CE100BEA45E /* Service */,
+				C90B3FA217F3EA3F00332975 /* User */,
+			);
+			name = Commands;
+			path = Classes/API/Commands;
+			sourceTree = SOURCE_ROOT;
+		};
+		C971575017F52C26003103DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C94B88FB1806304F00A989BF /* Base */,
+				C9FE8706186DC1C500275D79 /* Account */,
+				C935E0451874F9C6007037FB /* Announcement */,
+				C96730D11807B91000B4A528 /* API */,
+				C92B4DC01874991200E554AC /* DNS */,
+				C9677A2A186E8740002F49FA /* Domains */,
+				C9859C731998615D0068548E /* Jabber */,
+				C935E0461874F9C6007037FB /* Mail */,
+				C935E0471874F9C6007037FB /* MySQL */,
+				C935E0481874F9C6007037FB /* PrivateServer */,
+				C935E0491874F9C6007037FB /* Rewards */,
+				C94B88F71806302600A989BF /* User */,
+			);
+			name = Models;
+			path = Classes/API/Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		C972995418370CE100BEA45E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C972995518370D7700BEA45E /* DHMServiceProgressCommand.h */,
+				C972995618370D7700BEA45E /* DHMServiceProgressCommand.m */,
+			);
+			name = Service;
+			path = Classes/API/Commands/Service;
+			sourceTree = SOURCE_ROOT;
+		};
+		C97C6E051818B5D80031F4EF /* DNS */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6E061818B63F0031F4EF /* DHMListDnsRecordsCommand.h */,
+				C97C6E071818B63F0031F4EF /* DHMListDnsRecordsCommand.m */,
+				C96CC808182C8C2800B6186C /* DHMAddDnsCommand.h */,
+				C96CC809182C8C2800B6186C /* DHMAddDnsCommand.m */,
+				C96CC80B182C95E300B6186C /* DHMRemoveDnsCommand.h */,
+				C96CC80C182C95E300B6186C /* DHMRemoveDnsCommand.m */,
+			);
+			name = DNS;
+			path = Classes/API/Commands/DNS;
+			sourceTree = SOURCE_ROOT;
+		};
+		C97C6E091818B6570031F4EF /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6E0A1818B6880031F4EF /* DHMListDomainsCommand.h */,
+				C97C6E0B1818B6880031F4EF /* DHMListDomainsCommand.m */,
+				C96CC7FF182C870400B6186C /* DHMListRegistrationsCommand.h */,
+				C96CC800182C870400B6186C /* DHMListRegistrationsCommand.m */,
+				C96CC805182C880700B6186C /* DHMDomainCheckCommand.h */,
+				C96CC806182C880700B6186C /* DHMDomainCheckCommand.m */,
+			);
+			name = Domains;
+			path = Classes/API/Commands/Domains;
+			sourceTree = SOURCE_ROOT;
+		};
+		C97C6E0D1818BC3A0031F4EF /* PrivateServer */ = {
+			isa = PBXGroup;
+			children = (
+				C97C6E0E1818BC7F0031F4EF /* DHMListPsUsageCommand.h */,
+				C97C6E0F1818BC7F0031F4EF /* DHMListPsUsageCommand.m */,
+				C97C6E111818BFF40031F4EF /* DHMListPsCommand.h */,
+				C97C6E121818BFF40031F4EF /* DHMListPsCommand.m */,
+				C96E647E183475870018D1F6 /* DHMRebootPsCommand.h */,
+				C96E647F183475870018D1F6 /* DHMRebootPsCommand.m */,
+				C96E6484183478190018D1F6 /* DHMAddPsCommand.h */,
+				C96E6485183478190018D1F6 /* DHMAddPsCommand.m */,
+				C96E648718347BED0018D1F6 /* DHMRemovePsCommand.h */,
+				C96E648818347BED0018D1F6 /* DHMRemovePsCommand.m */,
+				C96E648A18347D9D0018D1F6 /* DHMListPendingPsCommand.h */,
+				C96E648B18347D9D0018D1F6 /* DHMListPendingPsCommand.m */,
+				C96E648D18347E780018D1F6 /* DHMRemovePendingPsCommand.h */,
+				C96E648E18347E780018D1F6 /* DHMRemovePendingPsCommand.m */,
+				C96E64901834830E0018D1F6 /* DHMListSettingsPsCommand.h */,
+				C96E64911834830F0018D1F6 /* DHMListSettingsPsCommand.m */,
+				C96E6493183485F10018D1F6 /* DHMUpdateSettingsPsCommand.h */,
+				C96E6494183485F20018D1F6 /* DHMUpdateSettingsPsCommand.m */,
+				C96E649618348A530018D1F6 /* DHMListSizeHistoryPsCommand.h */,
+				C96E649718348A540018D1F6 /* DHMListSizeHistoryPsCommand.m */,
+				C96E649918348C170018D1F6 /* DHMSetSizePsCommand.h */,
+				C96E649A18348C180018D1F6 /* DHMSetSizePsCommand.m */,
+				C96E649C18348DDF0018D1F6 /* DHMListRebootHistoryPsCommand.h */,
+				C96E649D18348DE00018D1F6 /* DHMListRebootHistoryPsCommand.m */,
+				C96E649F18348ED60018D1F6 /* DHMListImagesPsCommand.h */,
+				C96E64A018348ED70018D1F6 /* DHMListImagesPsCommand.m */,
+			);
+			name = PrivateServer;
+			path = Classes/API/Commands/PrivateServer;
+			sourceTree = SOURCE_ROOT;
+		};
+		C97D30D5181DFBD000D4B640 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				C982187F1829E6D200258FA3 /* DHMAccountDomainUsageCommand.h */,
+				C98218801829E6D200258FA3 /* DHMAccountDomainUsageCommand.m */,
+				C98218851829E9B500258FA3 /* DHMAccountStatusCommand.h */,
+				C98218861829E9B500258FA3 /* DHMAccountStatusCommand.m */,
+				C98218881829EB4000258FA3 /* DHMAccountUserUsageCommand.h */,
+				C98218891829EB4000258FA3 /* DHMAccountUserUsageCommand.m */,
+				C982188B1829ECF900258FA3 /* DHMAccountSshKeysCommand.h */,
+				C982188C1829ECF900258FA3 /* DHMAccountSshKeysCommand.m */,
+			);
+			name = Account;
+			path = Classes/API/Commands/Account;
+			sourceTree = SOURCE_ROOT;
+		};
+		C980C9F71809C7F200A68617 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C980C9F81809C84700A68617 /* DHMApiKeyModel.h */,
+				C980C9F91809C84700A68617 /* DHMApiKeyModel.m */,
+				C9C8E7881A6753F300A3C631 /* DHMApiKeyServiceModel.h */,
+				C9C8E7861A6753DA00A3C631 /* DHMApiKeyServiceModel.m */,
+				C8BAF1D91A943C6000111607 /* DHMCommandHistoryModel.h */,
+				C8BAF1DA1A943C6000111607 /* DHMCommandHistoryModel.m */,
+			);
+			name = Models;
+			path = Classes/Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		C9859C731998615D0068548E /* Jabber */ = {
+			isa = PBXGroup;
+			children = (
+				C9859C7B199864C90068548E /* DHMListJabberUsersDataItem.h */,
+				C9859C7C199864C90068548E /* DHMListJabberUsersDataItem.m */,
+			);
+			name = Jabber;
+			path = Classes/API/Models/Jabber;
+			sourceTree = SOURCE_ROOT;
+		};
+		C9859C771998617E0068548E /* Jabber */ = {
+			isa = PBXGroup;
+			children = (
+				C9859C78199862FF0068548E /* DHMListJabberUsersCommand.h */,
+				C9859C79199862FF0068548E /* DHMListJabberUsersCommand.m */,
+			);
+			name = Jabber;
+			path = Classes/API/Commands/Jabber;
+			sourceTree = SOURCE_ROOT;
+		};
+		C98E36A617EF597900056DCE /* External */ = {
+			isa = PBXGroup;
+			children = (
+				C91AE74218778351001BF45F /* SKBounceAnimation */,
+				C91AE73B18777EC5001BF45F /* ZAActivityBar */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		C9A1F8E719A0FDD700ACD6B4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C9A1F8EB19A0FE5C00ACD6B4 /* EAIntroPage+Extensions.h */,
+				C9A1F8EC19A0FE5C00ACD6B4 /* EAIntroPage+Extensions.m */,
+			);
+			name = Extensions;
+			path = Classes/Extensions;
+			sourceTree = SOURCE_ROOT;
+		};
+		C9A551CD17FA60C5005BBB63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C935E03A1874F8EC007037FB /* Account */,
+				C935E03B1874F8EC007037FB /* Announcement */,
+				C96730D01807B76F00B4A528 /* API */,
+				C935E03C1874F8EC007037FB /* DNS */,
+				C935E03D1874F8EC007037FB /* Domains */,
+				C9D4B82A1999A19E00050F40 /* Jabber */,
+				C935E03E1874F8EC007037FB /* Mail */,
+				C935E03F1874F8EC007037FB /* MySQL */,
+				C9A551D117FA60F9005BBB63 /* Onboarding */,
+				C935E0401874F8EC007037FB /* PrivateServer */,
+				C935E0411874F8EC007037FB /* Rewards */,
+				C9A551D217FA610A005BBB63 /* User */,
+				C96128CE187E43D40043A497 /* DHMCommandTableCell.h */,
+				C96128CF187E43D40043A497 /* DHMCommandTableCell.m */,
+				C9ABB79B180E2E60004F6F1E /* DHMKeyListDetailViewController.h */,
+				C9ABB79C180E2E60004F6F1E /* DHMKeyListDetailViewController.m */,
+				C972F1FA1808F65D004F36D6 /* DHMKeyListNavViewController.h */,
+				C972F1FB1808F65D004F36D6 /* DHMKeyListNavViewController.m */,
+				C972F1F41808EE57004F36D6 /* DHMKeyListTableViewController.h */,
+				C972F1F51808EE57004F36D6 /* DHMKeyListTableViewController.m */,
+				C93BE8BC18977A7900E63C0B /* DHMSingleCommandTableViewController.h */,
+				C93BE8BD18977A7900E63C0B /* DHMSingleCommandTableViewController.m */,
+				C906587A18A79A540072EE70 /* DHMSingleCommandViewController.h */,
+				C906587B18A79A540072EE70 /* DHMSingleCommandViewController.m */,
+				C960C10519A59216005337E7 /* DHMMainTabBarViewController.h */,
+				C960C10619A59216005337E7 /* DHMMainTabBarViewController.m */,
+				C9FAB91219A9072C005B4273 /* DHMPointsTableViewController.h */,
+				C9FAB91319A9072C005B4273 /* DHMPointsTableViewController.m */,
+				C9FAB91519A92D4D005B4273 /* DHMPointsTableCell.h */,
+				C9FAB91619A92D4D005B4273 /* DHMPointsTableCell.m */,
+				C937A59519B2A85E0059239A /* DHMNibPointsTableCell.xib */,
+				C9B87D351A64C5120010BF54 /* DHMServiceTableViewController.h */,
+				C9B87D361A64C5120010BF54 /* DHMServiceTableViewController.m */,
+				C89D84721A8B04C1007CE3C0 /* BannerViewController.h */,
+				C89D84731A8B04C1007CE3C0 /* BannerViewController.m */,
+				C816DEEF1A92E1CA008CB7AB /* DHMHistoryTableViewController.h */,
+				C816DEF01A92E1CA008CB7AB /* DHMHistoryTableViewController.m */,
+			);
+			name = Views;
+			path = Classes/Views;
+			sourceTree = SOURCE_ROOT;
+		};
+		C9A551D117FA60F9005BBB63 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C998D49F17EE29100071B4F2 /* DHMPagedOnboardingViewController.h */,
+				C998D4A017EE29100071B4F2 /* DHMPagedOnboardingViewController.m */,
+				C98DA2FE19A1A19300ECD8BC /* DHMOnboardingSegue.h */,
+				C98DA2FF19A1A19300ECD8BC /* DHMOnboardingSegue.m */,
+			);
+			name = Onboarding;
+			path = Classes/Views/Onboarding;
+			sourceTree = SOURCE_ROOT;
+		};
+		C9A551D217FA610A005BBB63 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C966907A17E3F3C60076A71E /* DHMUserTableViewController.h */,
+				C966907B17E3F3C60076A71E /* DHMUserTableViewController.m */,
+				C95D3F3717EA9481007B0D3F /* DHMUserDetailViewController.h */,
+				C95D3F3817EA9481007B0D3F /* DHMUserDetailViewController.m */,
+				C917727718ACE4020027B02B /* DHMAddUserViewController.h */,
+				C917727818ACE4020027B02B /* DHMAddUserViewController.m */,
+			);
+			name = User;
+			path = Classes/Views/User;
+			sourceTree = SOURCE_ROOT;
+		};
+		C9D4B82A1999A19E00050F40 /* Jabber */ = {
+			isa = PBXGroup;
+			children = (
+				C9D4B82E1999A24000050F40 /* DHMListJabberUsersViewController.h */,
+				C9D4B82F1999A24000050F40 /* DHMListJabberUsersViewController.m */,
+			);
+			name = Jabber;
+			path = Classes/Views/Jabber;
+			sourceTree = SOURCE_ROOT;
+		};
+		C9FE8706186DC1C500275D79 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE8707186DC1C500275D79 /* DHMAccountStatusDataItem.h */,
+				C9FE8708186DC1C500275D79 /* DHMAccountStatusDataItem.m */,
+				C9FE8709186DC1C500275D79 /* DHMAccountUsageDataItem.h */,
+				C9FE870A186DC1C500275D79 /* DHMAccountUsageDataItem.m */,
+				C9FE8710186DC1F500275D79 /* DHMAccountUserUsageDataItem.h */,
+				C9FE8711186DC1F500275D79 /* DHMAccountUserUsageDataItem.m */,
+				C9677A21186E7A37002F49FA /* DHMAccountSshKeysDataItem.h */,
+				C9677A22186E7A37002F49FA /* DHMAccountSshKeysDataItem.m */,
+			);
+			name = Account;
+			path = Classes/API/Models/Account;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C966905B17E3F3C60076A71E /* DHBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C966907F17E3F3C60076A71E /* Build configuration list for PBXNativeTarget "DHBot" */;
+			buildPhases = (
+				A4D699D0B97E4F9BB3ACA10E /* [CP] Check Pods Manifest.lock */,
+				C966905817E3F3C60076A71E /* Sources */,
+				C966905917E3F3C60076A71E /* Frameworks */,
+				C966905A17E3F3C60076A71E /* Resources */,
+				92CB9688B09E457E8052DFB7 /* [CP] Copy Pods Resources */,
+				2673640249A8F48BCB3CA4C4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHBot;
+			productName = DHMan;
+			productReference = C966905C17E3F3C60076A71E /* DHBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C966905417E3F3C60076A71E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DHM;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Matthew Crumley";
+				TargetAttributes = {
+					C966905B17E3F3C60076A71E = {
+						DevelopmentTeam = "";
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C966905717E3F3C60076A71E /* Build configuration list for PBXProject "DHBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = C966905317E3F3C60076A71E;
+			productRefGroup = C966905D17E3F3C60076A71E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C966905B17E3F3C60076A71E /* DHBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C966905A17E3F3C60076A71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C960C10419A58C23005337E7 /* AssetCatalog.xcassets in Resources */,
+				C8F5F7D31A92E67800C6482F /* Settings.bundle in Resources */,
+				C92A122118EAD7EF00457160 /* Localizable.strings in Resources */,
+				C949EF7D18EAC96800F69D69 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2673640249A8F48BCB3CA4C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHBot/Pods-DHBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92CB9688B09E457E8052DFB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DHBot/Pods-DHBot-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/Appirater/Appirater.bundle,
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHBot/Pods-DHBot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D699D0B97E4F9BB3ACA10E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DHBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C966905817E3F3C60076A71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FE870B186DC1C500275D79 /* DHMAccountStatusDataItem.m in Sources */,
+				C960C10719A59216005337E7 /* DHMMainTabBarViewController.m in Sources */,
+				C966907017E3F3C60076A71E /* DHMAppDelegate.m in Sources */,
+				C966907C17E3F3C60076A71E /* DHMUserTableViewController.m in Sources */,
+				C966908417E3F60D0076A71E /* main.m in Sources */,
+				C978264517E6AED9005867D2 /* DHMListUserDataItem.m in Sources */,
+				C95D3F3917EA9481007B0D3F /* DHMUserDetailViewController.m in Sources */,
+				C998D4A117EE29100071B4F2 /* DHMPagedOnboardingViewController.m in Sources */,
+				C998D4A717EE95C00071B4F2 /* DHMApi.m in Sources */,
+				C91D1CD11899F0A10091FE86 /* DHMListRegistrationsViewController.m in Sources */,
+				C92B4DC61874994800E554AC /* DHMListDnsRecordsDataItem.m in Sources */,
+				C90B3FA617F3EB0100332975 /* DHMListUsersCommand.m in Sources */,
+				C91AE74518778351001BF45F /* SKBounceAnimation.m in Sources */,
+				C89D84741A8B04C1007CE3C0 /* BannerViewController.m in Sources */,
+				C971574A17F52BB1003103DA /* DHMBaseCommand.m in Sources */,
+				C9149BEE17FFC0EB00C2BBA5 /* DHMErrorData.m in Sources */,
+				C9068F5E1898B8D6009BEDDF /* DHMListDomainsViewController.m in Sources */,
+				C9B87D371A64C5120010BF54 /* DHMServiceTableViewController.m in Sources */,
+				C90D9FF11883892300F453AF /* DHMAccountStatusViewController.m in Sources */,
+				C924221918E8284F009732DB /* DHMRemoveMailFilterDataItem.m in Sources */,
+				C91AE73E18777EC5001BF45F /* ZAActivityBar.m in Sources */,
+				C911A485189CB9EF00543574 /* DHMDomainCheckViewController.m in Sources */,
+				C924221F18E82AF0009732DB /* DHMRemoveDnsDataItem.m in Sources */,
+				C98DFE5E1804E1C50074C90F /* DHMBaseData.m in Sources */,
+				C96730CE1807A4B000B4A528 /* DHMListApiCapabilitiesCommand.m in Sources */,
+				C9FE870C186DC1C500275D79 /* DHMAccountUsageDataItem.m in Sources */,
+				C96730D41807B96000B4A528 /* DHMApiCommandData.m in Sources */,
+				C922BDDD18AB20370009862E /* DHMListApiKeysViewController.m in Sources */,
+				C934498D18E6D48F00EDE5C4 /* DHMListAnnounceSubscribersDataItem.m in Sources */,
+				C96730D71807BC9100B4A528 /* DHMAccessibleCommandsTableViewController.m in Sources */,
+				C924222518E83573009732DB /* DHMRemoveMySqlHostnameDataItem.m in Sources */,
+				C972F1F61808EE57004F36D6 /* DHMKeyListTableViewController.m in Sources */,
+				C972F1FC1808F65D004F36D6 /* DHMKeyListNavViewController.m in Sources */,
+				C980C9FA1809C84700A68617 /* DHMApiKeyModel.m in Sources */,
+				C94B9225180CDB3B00E11CFE /* DHMController.m in Sources */,
+				C917727918ACE4030027B02B /* DHMAddUserViewController.m in Sources */,
+				C9FE8712186DC1F500275D79 /* DHMAccountUserUsageDataItem.m in Sources */,
+				C9ABB79D180E2E60004F6F1E /* DHMKeyListDetailViewController.m in Sources */,
+				C97C6E011818A80D0031F4EF /* DHMListApiKeysCommand.m in Sources */,
+				C9F8B5C7187270FD00DC1313 /* DHMListRegistrationsDataItem.m in Sources */,
+				C93BE8BE18977A7900E63C0B /* DHMSingleCommandTableViewController.m in Sources */,
+				C97C6E081818B63F0031F4EF /* DHMListDnsRecordsCommand.m in Sources */,
+				C9D4B8301999A24000050F40 /* DHMListJabberUsersViewController.m in Sources */,
+				C9242E771A008C2C00E0B643 /* DHMListPsDetailViewController.m in Sources */,
+				C97C6E0C1818B6880031F4EF /* DHMListDomainsCommand.m in Sources */,
+				C9C8E7871A6753DA00A3C631 /* DHMApiKeyServiceModel.m in Sources */,
+				C97C6E101818BC7F0031F4EF /* DHMListPsUsageCommand.m in Sources */,
+				C97C6E131818BFF40031F4EF /* DHMListPsCommand.m in Sources */,
+				C98218811829E6D200258FA3 /* DHMAccountDomainUsageCommand.m in Sources */,
+				C98218871829E9B500258FA3 /* DHMAccountStatusCommand.m in Sources */,
+				C9F704E4188182C8009FAC09 /* DHMUserUsageViewController.m in Sources */,
+				C924222218E83550009732DB /* DHMAddMySqlHostnameDataItem.m in Sources */,
+				C982188A1829EB4000258FA3 /* DHMAccountUserUsageCommand.m in Sources */,
+				C982188D1829ECF900258FA3 /* DHMAccountSshKeysCommand.m in Sources */,
+				C98218901829EF1A00258FA3 /* DHMAddUserCommand.m in Sources */,
+				C98DA30019A1A19300ECD8BC /* DHMOnboardingSegue.m in Sources */,
+				C92B4D80188E8F7000AF1984 /* DHMListDnsRecordsViewController.m in Sources */,
+				C925FE1E188A8E9F004F2FCE /* DHMListMySqlDbViewController.m in Sources */,
+				C9363254188A1C6400BD2988 /* DHMListPsDataItem.m in Sources */,
+				C924CDEE19EDF0500081752C /* DHMListRegistrationsDetailViewController.m in Sources */,
+				C98218931829F06D00258FA3 /* DHMRemoveUserCommand.m in Sources */,
+				C936325A188A221C00BD2988 /* DHMListPsViewController.m in Sources */,
+				C96CC801182C870400B6186C /* DHMListRegistrationsCommand.m in Sources */,
+				C96CC807182C880700B6186C /* DHMDomainCheckCommand.m in Sources */,
+				C96CC80A182C8C2800B6186C /* DHMAddDnsCommand.m in Sources */,
+				C945DAE9188D3E1F00F5B0F5 /* DHMListMySqlUserViewController.m in Sources */,
+				C96CC80D182C95E300B6186C /* DHMRemoveDnsCommand.m in Sources */,
+				C924221318E82830009732DB /* DHMAddMailFilterDataItem.m in Sources */,
+				C96CC811182C995A00B6186C /* DHMListMySqlDbCommand.m in Sources */,
+				C96CC814182C9BDD00B6186C /* DHMListMySqlHostnamesCommand.m in Sources */,
+				C9C8E78B1A6784E800A3C631 /* DHMRebootPsDataItem.m in Sources */,
+				C934499618E6E01E00EDE5C4 /* DHMRemoveAnnounceSubscriberDataItem.m in Sources */,
+				C93204221884EC0700DD1B68 /* DHMListAnnounceListsDataItem.m in Sources */,
+				C934499318E6D8E400EDE5C4 /* DHMAddAnnounceSubscrberDataItem.m in Sources */,
+				C924222B18E835B4009732DB /* DHMRemoveMySqlUserDataItem.m in Sources */,
+				C96CC817182C9CC600B6186C /* DHMAddMySqlHostnameCommand.m in Sources */,
+				C96CC81A182C9E5000B6186C /* DHMRemoveMySqlHostnameCommand.m in Sources */,
+				C9F8B5C11872514D00DC1313 /* DHMListDomainsDataItem.m in Sources */,
+				C98C2BE2183035A300543390 /* DHMAddMySqlUserCommand.m in Sources */,
+				C98C2BE9183041CC00543390 /* DHMRemoveMySqlUserCommand.m in Sources */,
+				C98C2BEF1830472500543390 /* DHMListMySqlUsersCommand.m in Sources */,
+				C94ECB561831D05600DA5364 /* DHMAddMailFilterCommand.m in Sources */,
+				C94ECB591831D35B00DA5364 /* DHMRemoveMailFilterCommand.m in Sources */,
+				C9859C7D199864C90068548E /* DHMListJabberUsersDataItem.m in Sources */,
+				C94ECB5C1831D4A400DA5364 /* DHMListMailFiltersCommand.m in Sources */,
+				C94ECB601831DE0700DA5364 /* DHMAddRewardPromoCommand.m in Sources */,
+				C924221C18E82AE0009732DB /* DHMAddDnsDataItem.m in Sources */,
+				C94ECB631831DFC400DA5364 /* DHMRemoveRewardPromoCommand.m in Sources */,
+				C8BAF1DB1A943C6000111607 /* DHMCommandHistoryModel.m in Sources */,
+				C94ECB661831E11600DA5364 /* DHMEnableRewardPromoCommand.m in Sources */,
+				C9677A23186E7A37002F49FA /* DHMAccountSshKeysDataItem.m in Sources */,
+				C94ECB691831E1DB00DA5364 /* DHMDisableRewardPromoCommand.m in Sources */,
+				C911A47F189C90AF00543574 /* DHMAvailableApiCommandsViewController.m in Sources */,
+				C94ECB6C1831E36700DA5364 /* DHMListRewardPromosCommand.m in Sources */,
+				C999B7E418331C78004D3C63 /* DHMListRewardPromoDetailCommand.m in Sources */,
+				C925FE24188A9DD8004F2FCE /* DHMListMySqlHostnameViewController.m in Sources */,
+				C9068F581898B450009BEDDF /* DHMListPsImagesDataItem.m in Sources */,
+				C9677A29186E7F00002F49FA /* DHMApiListKeysDataItem.m in Sources */,
+				C932041C1884DBC500DD1B68 /* DHMListMySqlUsersDataItem.m in Sources */,
+				C930229818B3738C007A527D /* DHMRemoveUserDataItem.m in Sources */,
+				C999B7EA18332024004D3C63 /* DHMListRewardReferralsPromoCommand.m in Sources */,
+				C91816F918332E11009A8DC7 /* DHMListRewardReferralSummaryCommand.m in Sources */,
+				C96E6480183475870018D1F6 /* DHMRebootPsCommand.m in Sources */,
+				C932041F1884E5D100DD1B68 /* DHMListMailFiltersDataItem.m in Sources */,
+				C901823A18912A19001331FC /* DHMListMailFiltersViewController.m in Sources */,
+				C906587C18A79A540072EE70 /* DHMSingleCommandViewController.m in Sources */,
+				C96E6486183478190018D1F6 /* DHMAddPsCommand.m in Sources */,
+				C96E648918347BED0018D1F6 /* DHMRemovePsCommand.m in Sources */,
+				C9677A2D186E8789002F49FA /* DHMDomainCheckDataItem.m in Sources */,
+				C935E04C1874FF68007037FB /* DHMAccountUsageViewController.m in Sources */,
+				C93204191884D95300DD1B68 /* DHMListMySqlHostnameDataItem.m in Sources */,
+				C96E648C18347D9D0018D1F6 /* DHMListPendingPsCommand.m in Sources */,
+				C8076BFB1AA2CF7400FCA7A7 /* DHMCommandTableCell.m in Sources */,
+				C96E648F18347E790018D1F6 /* DHMRemovePendingPsCommand.m in Sources */,
+				C96E64921834830F0018D1F6 /* DHMListSettingsPsCommand.m in Sources */,
+				C92B4D7A188E865100AF1984 /* DHMListAnnounceListsViewController.m in Sources */,
+				C96E6495183485F20018D1F6 /* DHMUpdateSettingsPsCommand.m in Sources */,
+				C96E649818348A550018D1F6 /* DHMListSizeHistoryPsCommand.m in Sources */,
+				C96E649B18348C190018D1F6 /* DHMSetSizePsCommand.m in Sources */,
+				C96E649E18348DE10018D1F6 /* DHMListRebootHistoryPsCommand.m in Sources */,
+				C924222818E83596009732DB /* DHMAddMySqlUserDataItem.m in Sources */,
+				C96E64A118348ED80018D1F6 /* DHMListImagesPsCommand.m in Sources */,
+				C93204131884D74B00DD1B68 /* DHMListMySqlDbDataItem.m in Sources */,
+				C96EBD9F1835CC2F00ABA5D0 /* DHMListAnnounceListsCommand.m in Sources */,
+				C816DEF11A92E1CA008CB7AB /* DHMHistoryTableViewController.m in Sources */,
+				C96EBDA21835CC8900ABA5D0 /* DHMListAnnounceSubscribersCommand.m in Sources */,
+				C922BDE318AB2EDC0009862E /* DHMAddUserDataItem.m in Sources */,
+				C9859C7A199862FF0068548E /* DHMListJabberUsersCommand.m in Sources */,
+				C96EBDA51835CCA500ABA5D0 /* DHMAddAnnounceSubscriberCommand.m in Sources */,
+				C96EBDA81835CCFD00ABA5D0 /* DHMRemoveAnnounceSubscriberCommand.m in Sources */,
+				C96EBDAB1835CD4900ABA5D0 /* DHMPostAnnounceCommand.m in Sources */,
+				C9A1F8ED19A0FE5C00ACD6B4 /* EAIntroPage+Extensions.m in Sources */,
+				C972995718370D7700BEA45E /* DHMServiceProgressCommand.m in Sources */,
+				C9456DB218824B13005BEC05 /* DHMAccountSshKeysViewController.m in Sources */,
+				C95332BF1845B06900A29C78 /* DHMCommandCategory.m in Sources */,
+				C934499918E6E0F700EDE5C4 /* DHMPostAnnounceDataItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C92A122318EAD7EF00457160 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C92A122218EAD7EF00457160 /* Base */,
+				C92A122518EAD81600457160 /* en */,
+				C92A122718EAD83600457160 /* fr */,
+			);
+			name = Localizable.strings;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C949EF7B18EAC96800F69D69 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C949EF7C18EAC96800F69D69 /* Base */,
+				C92A122418EAD81600457160 /* en */,
+				C92A122618EAD83600457160 /* fr */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C966907D17E3F3C60076A71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C966907E17E3F3C60076A71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C966908017E3F3C60076A71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470BD7481E51A9D2D27C1F79 /* Pods-DHBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHBot-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/DHBot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unsaturated.dhbot;
+				PRODUCT_NAME = DHBot;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C966908117E3F3C60076A71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B8AFD5C6AF5205BECCEC45 /* Pods-DHBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHBot-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/DHBot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unsaturated.dhbot;
+				PRODUCT_NAME = DHBot;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C966905717E3F3C60076A71E /* Build configuration list for PBXProject "DHBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C966907D17E3F3C60076A71E /* Debug */,
+				C966907E17E3F3C60076A71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C966907F17E3F3C60076A71E /* Build configuration list for PBXNativeTarget "DHBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C966908017E3F3C60076A71E /* Debug */,
+				C966908117E3F3C60076A71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C966905417E3F3C60076A71E /* Project object */;
+}
