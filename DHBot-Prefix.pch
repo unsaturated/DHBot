@@ -1,0 +1,41 @@
+/**
+ * DH Bot is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+ *  
+ * DH Bot is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *  
+ * You should have received a copy of the GNU General Public License
+ * along with DH Bot. If not, see 
+ * https://github.com/unsaturated/DHBot/blob/master/LICENSE.
+ */
+
+#import <Availability.h>
+
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iPhone SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <StoreKit/StoreKit.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <RestKit/RestKit.h>
+#import <EAIntroView/EAIntroView.h>
+#import <RNCryptor/RNEncryptor.h>
+#import <RNCryptor/RNDecryptor.h>
+#endif
+#else
+#ifdef __OBJC__
+#import <Cocoa/Cocoa.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <CoreServices/CoreServices.h>
+#endif
+#endif
