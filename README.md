@@ -4,7 +4,7 @@ DH Bot was an iOS app first released on November 11, 2014. It was built to contr
 
 The DreamHost APIs have since been deprecated and removed from the DreamHost web control panel. Without an API to access the app itself became useless. Further, I decided to cancel my Apple Developer membership, thereby ending its tenure on the App Store on April 28, 2016.
 
-Read about the app's history and check out screen shots [on my website](https://matt.unsaturated.com/dhbot).
+Read about the app's history and check out screen shots [on my website](https://matt.unsaturated.com/portfolio/dh-bot/).
 
 ## Code
 In the `Classes` directory you'll see the following:
